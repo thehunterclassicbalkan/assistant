@@ -1,1 +1,0 @@
-import{c as a,a as s,o}from"./index-ChBKjHwF.js";const t={class:"homepage"},l={__name:"HomeView",setup(r){return(n,e)=>(o(),a("div",t,e[0]||(e[0]=[s("div",{class:"new-year-image"},null,-1)])))}};export{l as default};
