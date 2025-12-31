@@ -1,0 +1,334 @@
+
+/* Temporari css za li9stu */
+.mission-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-bottom: 20px;
+  background: #424242;
+  background: linear-gradient(0deg, rgb(43 43 43) 0%, rgba(31, 31, 31, 1) 100%);
+  color: #fff;
+}
+.mission-wrapper:after{
+  content: '';
+  display: block;
+  clear: both;
+}
+.mission-wrapper.selected{
+  background: #1a6f35;
+  background: #222;
+  background: linear-gradient(0deg, rgb(13 37 18) 0%, rgb(44 102 55) 100%);
+}
+.mission-wrapper.not-passable{
+  /* background: #bd1313!important; */
+  background: #ff0000;
+  background: linear-gradient(0deg, rgb(91 0 0) 0%, rgb(127 1 1) 100%);
+}
+
+/* CARD */
+.mission-wrapper .mission-number{
+  display: flex;
+  justify-content: center; /* horizontalno */
+  align-items: center;   
+  width: 50px;
+  min-height: 50px;
+  background: #373737;
+  font-size: 20px;
+  font-weight: bold;
+}
+.mission-wrapper.selected .mission-number{
+  background: #0b481f;
+}
+.mission-wrapper.not-passable .mission-number{
+  background: #950c0c;
+}
+.mission-wrapper .mission-info-wrap{
+  width: calc(100% - 100px);
+  min-height: 50px;
+  padding: 9px 20px;
+  cursor: pointer;
+}
+.head-divider{
+  margin: 9px 0;
+}
+.mission-titles{
+  margin-bottom: 5px;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.mission-info-layout{
+  display: flex;
+  justify-content: space-between;
+}
+.mission-info-layout .left-layout{
+  width: 50%;
+}
+  .goal-list{
+    padding-left: 20px;
+  }
+    .goal-list li{
+      list-style: disc;
+      font-weight: 900;
+    }
+.mission-info-layout .right-layout{
+  width: 40%;
+}
+.mission-info-layout .right-layout img{
+  display: block;
+  width: 100%;
+}
+  .mission-wrapper .mission-info-wrap .mission-info-header{
+    display: flex;
+    justify-content: space-between;
+  }
+    .mission-wrapper p.mission-name{
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .mission-wrapper p.mission-reward{
+      font-size: 20px;
+      font-weight: bold;
+    }
+  .mission-wrapper .mission-info{
+    display: none;
+  }
+  .mission-wrapper .mission-info.opened{
+    display: block;
+  }
+.mission-wrapper .checkbox{
+  position: relative;
+  width: 50px;
+  background: #373737;
+  cursor: pointer;
+}
+  .mission-wrapper .checkbox:before{
+    content: '';
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 24px;
+    height: 24px;
+    border: 2px solid #d55d26;
+  }
+  .mission-wrapper.selected .checkbox:after{
+    content: '';
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 14px;
+    height: 14px;
+    background: #d55d26;
+  }
+
+/* CSS za kartice */
+.group-section{
+  margin-bottom: 40px;
+}
+.item-card{
+  padding: var(--item-card-padding);
+  background: var(--item-card-background);
+  transition: all 0.3s;
+  opacity: 0.75;
+  cursor: pointer;
+}
+.item-card:hover{
+  background: var( --item-card-background-hover);
+  opacity: 1;
+  transform: scale(1.03);
+}
+.item-card.selected{
+  /* background: var(--gray-soft);
+  background: var( --item-card-background-hover); */
+  background: #222;
+  background: linear-gradient(0deg, rgb(22 22 22) 0%, rgb(44 102 55) 100%);
+  opacity: 1;
+}
+  .item-card img {
+    display: block;
+    width: 100%;
+    margin: 15px 0 20px;
+  }
+  .card-title{
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: var(--item-card-text-dark);
+  }
+  .price-title{
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    /* color: var(--item-card-text-dark); */
+    color: var(--white);
+  }
+.btn{
+  width: 100%;
+  padding: 10px;
+  color: var(--white);
+  font-size: 14px;
+  text-transform: uppercase;
+  background: var(--main-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn.selected{
+  background: var(--white);
+  color: #111;
+}
+.btn.empty{
+  background: transparent;
+  border: 1px solid #fff;
+}
+/* RESERVES */
+.reserves-container img{
+  display: block;
+  width: 100%;
+}
+
+/* MISSIONS FILTER MENU */
+.missions-filter-menu{
+  position: fixed;
+  left: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+  width: 60px;
+  padding: 10px 10px 10px 0;
+  border-radius: 0 5px 5px 0;
+  overflow: hidden;
+  background: var(--gray-dark);
+  transition: all 0.3s;
+}
+.missions-filter-menu:hover{
+  width: 250px;
+}
+  
+  .missions-filter-menu .filter-item{
+    width: 240px;
+    margin-bottom: 5px;
+    padding: 5px 0 5px 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+    border-radius: 0 5px 5px 0;
+  }
+  .missions-filter-menu .filter-item:hover, .missions-filter-menu .filter-item.selected{
+    background: var(--gray-light);
+  }
+    .missions-filter-menu .filter-item img{
+      display: inline-block;
+      vertical-align: middle;
+      width: 35px;
+      margin: 0 30px 0 0;
+    }
+    .missions-filter-menu .filter-item span{
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .missions-filter-menu .filter-item .btn{
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+/* Missions kartice */
+.group-section.missions .grid{
+  margin-bottom: 40px;
+}
+.group-section.missions .grid .item-card{
+  padding: 0;
+  background: var(--item-card-background);
+  transition: all 0.3s;
+  opacity: 1;
+  border: 1px solid #d55d26;
+}
+.group-section.missions .grid .item-card.selected{
+  background: #222;
+  background: linear-gradient(0deg, rgb(22 22 22) 0%, rgb(74 209 100) 100%);
+}
+  .group-section.missions .grid .item-card .img-container{
+    position: relative;
+    width: 100%;
+    height: 277px;
+    overflow: hidden;
+  }
+  .group-section.missions .grid .item-card img {
+    display: block;
+    width: 100%;
+    margin: 0 auto 0;
+  }
+  .group-section.missions .grid .info-container{
+    text-align: center;
+    padding: var(--item-card-padding) var(--item-card-padding);
+  }
+    .group-section.missions .grid .card-title{
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 10px;
+      color: var(--white);
+    }
+    .group-section.missions .grid .item-card.selected .price-title{
+      color: #fff;
+      background: rgba(255, 255, 255, 0.1);
+    }
+    .group-section.missions .grid .price-title{
+      margin-bottom: 5px;
+      font-size: 14px;
+      font-weight: 600;
+      color: #FF5722;
+      background: rgba(255, 87, 34, 0.1);
+    }
+/* compact */
+.group-section.missions .compact{
+  margin-bottom: 20px;
+}
+.group-section.missions .compact .item-card{
+  padding: 0;
+  background: var(--item-card-background);
+  transition: all 0.3s;
+  opacity: 1;
+  border: none;
+}
+.group-section.missions .compact .item-card.selected{
+  background: #222;
+  background: linear-gradient(0deg, rgb(22 22 22) 0%, rgb(35, 100, 48) 100%);
+}
+  .group-section.missions .compact .item-card .img-container{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+  }
+    .group-section.missions .compact .item-card img {
+      display: block;
+      width: 100%;
+      margin: 0;
+    }
+  .group-section.missions .compact .info-container{
+    display: inline-block;
+    text-align: left;
+    height: 80px;
+    padding: 0 var(--item-card-padding);
+    vertical-align: top;
+  }
+    .group-section.missions .compact .card-title{
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 5px;
+      color: var(--white);
+    }
+    .group-section.missions .compact .item-card.selected .price-title{
+      color: #fff;
+      background: transparent;
+    }
+    .group-section.missions .compact .price-title{
+      margin-bottom: 5px;
+      font-size: 12px;
+      font-weight: 600;
+      color: #FF5722;
+      background: transparent;
+    }

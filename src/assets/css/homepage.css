@@ -1,0 +1,139 @@
+.homepage{
+  position: relative;
+  /* padding-top: 100vh; */
+  height: 100vh;
+}
+.hero-banner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  height: 100vh;
+  width: 100%;
+  background-image: url('@/assets/images/bg-valdesbois.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top center;
+  background-color: #2D2D2D;
+  background-size: cover;
+}
+  .hero-banner h1{
+    width: 1000px;
+    font-size: 72px;
+    font-weight: 900;
+    color: #f95522;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .hero-banner p{
+    width: 800px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+.homepage-content{
+  position: relative;
+  z-index: 2;
+  height: 1500px;
+  background-color: #2D2D2D;
+}
+
+/* REMOVE AFTER NEW YEAR */
+.new-year-image{
+  width: 100%;
+  height: 100%;
+  background-image: url('@/assets/images/new-year.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom center;
+  background-color: #2D2D2D;
+  background-size: cover; 
+}
+
+/* ANIMATION OF HEADING */
+/* @keyframes fade {
+  from { opacity: 0 }
+  to   { opacity: 1 }
+}
+
+@keyframes combine {
+  to { 
+    filter: blur(10px) contrast(30); 
+  }
+} */
+
+/* .h1 {
+  animation: fade 4s linear infinite;
+  
+  animation-timing-function: linear(1 45%, 0 55% 90%, 1 100%);
+  
+  &:nth-child(2) {
+    
+    animation-timing-function: linear(0 45%, 1 55% 90%, 0 100%);
+  } 
+}
+
+section {
+  background: transparent;
+  animation: combine 4s linear infinite;
+  
+  animation-timing-function: linear(0, 0 45%, 1 50%, 0 55% 90%, 1 95%, 0 100%);
+  display: grid;
+  place-items: center;
+  
+  > * {
+    grid-area: 1 / 1;
+  }
+}
+
+@layer demo {
+  :root {
+    view-transition-name: none;
+  }
+  
+  .h1 {
+    font-size: 13vw;
+  }
+}
+
+@layer demo.support {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+  html {
+    block-size: 100%;
+    color-scheme: light;
+  }
+
+  body {
+    min-block-size: 100%;
+    font-family: system-ui, sans-serif;
+
+    display: grid;
+    place-content: center;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  fieldset {
+    max-inline-size: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1ch 2ch;
+    border-color: #8885;
+    
+    > label {
+      display: flex;
+      gap: 1ch;
+      align-items: center;
+      white-space: nowrap;
+    }
+  }
+} */

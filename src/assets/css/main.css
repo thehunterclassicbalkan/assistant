@@ -1,0 +1,80 @@
+@import './base.css';
+@import './nav.css';
+@import './typography.css';
+@import './homepage.css';
+@import './popup.css';
+@import './drawer.css';
+@import './missionCards.css';
+
+#app {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover{
+    color: white;
+  }
+}
+
+@media (min-width: 1024px) {
+  
+}
+
+.content{
+  padding-top: 150px;
+  width: 1200px;
+  margin: 0 auto;
+}
+.input, .input-textarea{
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--main-color);
+  border-radius: 5px;
+  background: #464646;
+  outline: none;
+  box-shadow: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+}
+.input:focus, .input-textarea{
+  outline: none;
+  box-shadow: none;
+}
+.input-textarea{
+  resize: none;
+  height: 200px;
+}
+.info-box{
+  padding: 40px 0;
+  text-align: center;
+}
+.layout-options{
+  text-align: right;
+}
+.layout-options li{
+  display: inline-block;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.layout-options svg{
+  width: 30px;
+  fill: var(--main-color);
+}
+.mb-20{
+  margin-bottom: 20px;
+}
+.mb-40{
+  margin-bottom: 40px;
+}
