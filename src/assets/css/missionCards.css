@@ -71,6 +71,14 @@
       list-style: disc;
       font-weight: 900;
     }
+  .req-list{
+    padding-left: 20px;
+  }
+    .req-list li{
+      margin-bottom: 10px;
+      list-style: disc;
+      font-weight: 400;
+    }
 .mission-info-layout .right-layout{
   width: 40%;
 }

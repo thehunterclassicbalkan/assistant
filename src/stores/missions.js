@@ -695,7 +695,34 @@ export const useStoreMissions = defineStore('missions', () => {
           sameHunt: false,
           selected: false,
           passable: true,
-          require: [],
+          require: [
+            {
+              weapons: [
+                "w8", "w17", "w20", "w21", "w30", "w45", "w49", "w50", "w31", "w13", "w22", "w15", "w28",
+                "w16", "w24", "w51", "w52", "w53", "w54", "w55", "w56", "w59", "w60"
+              ],
+              text: `
+                .300 Bolt Action Rifle,
+                .340 Weatherby Magnum Bolt Action Rifle,
+                .405 Lever Action Rifle,
+                .45-70 Government Lever Action Rifle,
+                .45-70 Buffalo Rifle,
+                .454 Revolver,
+                .50 Inline Muzzleloader,
+                .50 Inline Muzzleloading Pistol,
+                16GA/9.3x74R Drilling,
+                7mm Magnum Bullpup Rifle,
+                7mm Magnum Break Action Rifle,
+                8x57 IS Anschütz 1780 D FL Bolt Action Rifle,
+                8x57 IS K98k Bolt Action Rifle,
+                9.3x62 Anschütz 1780 D FL Bolt Action Rifle,
+                9.3x74R O/U Break Action Rifle,
+                any Compound bow,
+                any Recurve bow,
+                any Crossbow
+              `
+            }
+          ],
           hint: {
             text: "",
             imageURL: "",
@@ -713,7 +740,34 @@ export const useStoreMissions = defineStore('missions', () => {
           sameHunt: false,
           selected: false,
           passable: true,
-          require: [],
+          require: [
+            {
+              weapons: [
+                "w8", "w17", "w20", "w21", "w30", "w45", "w49", "w50", "w31", "w13", "w22", "w15", "w28",
+                "w16", "w24", "w51", "w52", "w53", "w54", "w55", "w56", "w59", "w60"
+              ],
+              text: `
+                .300 Bolt Action Rifle,
+                .340 Weatherby Magnum Bolt Action Rifle,
+                .405 Lever Action Rifle,
+                .45-70 Government Lever Action Rifle,
+                .45-70 Buffalo Rifle,
+                .454 Revolver,
+                .50 Inline Muzzleloader,
+                .50 Inline Muzzleloading Pistol,
+                16GA/9.3x74R Drilling,
+                7mm Magnum Bullpup Rifle,
+                7mm Magnum Break Action Rifle,
+                8x57 IS Anschütz 1780 D FL Bolt Action Rifle,
+                8x57 IS K98k Bolt Action Rifle,
+                9.3x62 Anschütz 1780 D FL Bolt Action Rifle,
+                9.3x74R O/U Break Action Rifle,
+                any Compound bow,
+                any Recurve bow,
+                any Crossbow
+              `
+            }
+          ],
           hint: {
             text: "",
             imageURL: "",
@@ -732,7 +786,34 @@ export const useStoreMissions = defineStore('missions', () => {
           sameHunt: true,
           selected: false,
           passable: true,
-          require: [],
+          require: [
+            {
+              weapons: [
+                "w8", "w17", "w20", "w21", "w30", "w45", "w49", "w50", "w31", "w13", "w22", "w15", "w28",
+                "w16", "w24", "w51", "w52", "w53", "w54", "w55", "w56", "w59", "w60"
+              ],
+              text: `
+                .300 Bolt Action Rifle,
+                .340 Weatherby Magnum Bolt Action Rifle,
+                .405 Lever Action Rifle,
+                .45-70 Government Lever Action Rifle,
+                .45-70 Buffalo Rifle,
+                .454 Revolver,
+                .50 Inline Muzzleloader,
+                .50 Inline Muzzleloading Pistol,
+                16GA/9.3x74R Drilling,
+                7mm Magnum Bullpup Rifle,
+                7mm Magnum Break Action Rifle,
+                8x57 IS Anschütz 1780 D FL Bolt Action Rifle,
+                8x57 IS K98k Bolt Action Rifle,
+                9.3x62 Anschütz 1780 D FL Bolt Action Rifle,
+                9.3x74R O/U Break Action Rifle,
+                any Compound bow,
+                any Recurve bow,
+                any Crossbow
+              `
+            }
+          ],
           hint: {
             text: "",
             imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/c/c0/Pb_lighthouse.png",
@@ -751,7 +832,34 @@ export const useStoreMissions = defineStore('missions', () => {
           sameHunt: false,
           selected: false,
           passable: true,
-          require: [],
+          require: [
+            {
+              weapons: [
+                "w8", "w17", "w20", "w21", "w30", "w45", "w49", "w50", "w31", "w13", "w22", "w15", "w28",
+                "w16", "w24", "w51", "w52", "w53", "w54", "w55", "w56", "w59", "w60"
+              ],
+              text: `
+                .300 Bolt Action Rifle,
+                .340 Weatherby Magnum Bolt Action Rifle,
+                .405 Lever Action Rifle,
+                .45-70 Government Lever Action Rifle,
+                .45-70 Buffalo Rifle,
+                .454 Revolver,
+                .50 Inline Muzzleloader,
+                .50 Inline Muzzleloading Pistol,
+                16GA/9.3x74R Drilling,
+                7mm Magnum Bullpup Rifle,
+                7mm Magnum Break Action Rifle,
+                8x57 IS Anschütz 1780 D FL Bolt Action Rifle,
+                8x57 IS K98k Bolt Action Rifle,
+                9.3x62 Anschütz 1780 D FL Bolt Action Rifle,
+                9.3x74R O/U Break Action Rifle,
+                any Compound bow,
+                any Recurve bow,
+                any Crossbow
+              `
+            }
+          ],
           hint: {
             text: "Shoot one banteng but do not harvest it. Shoot another one, harvest it and return to the first one to harvest within 10 minutes",
             imageURL: "",
@@ -794,7 +902,34 @@ export const useStoreMissions = defineStore('missions', () => {
           sameHunt: false,
           selected: false,
           passable: true,
-          require: [],
+          require: [
+            {
+              weapons: [
+                "w8", "w17", "w20", "w21", "w30", "w45", "w49", "w50", "w31", "w13", "w22", "w15", "w28",
+                "w16", "w24", "w51", "w52", "w53", "w54", "w55", "w56", "w59", "w60"
+              ],
+              text: `
+                .300 Bolt Action Rifle,
+                .340 Weatherby Magnum Bolt Action Rifle,
+                .405 Lever Action Rifle,
+                .45-70 Government Lever Action Rifle,
+                .45-70 Buffalo Rifle,
+                .454 Revolver,
+                .50 Inline Muzzleloader,
+                .50 Inline Muzzleloading Pistol,
+                16GA/9.3x74R Drilling,
+                7mm Magnum Bullpup Rifle,
+                7mm Magnum Break Action Rifle,
+                8x57 IS Anschütz 1780 D FL Bolt Action Rifle,
+                8x57 IS K98k Bolt Action Rifle,
+                9.3x62 Anschütz 1780 D FL Bolt Action Rifle,
+                9.3x74R O/U Break Action Rifle,
+                any Compound bow,
+                any Recurve bow,
+                any Crossbow
+              `
+            }
+          ],
           hint: {
             text: "",
             imageURL: "",
@@ -813,6 +948,32 @@ export const useStoreMissions = defineStore('missions', () => {
           selected: false,
           passable: true,
           require: [
+            {
+              weapons: [
+                "w8", "w17", "w20", "w21", "w30", "w45", "w49", "w50", "w31", "w13", "w22", "w15", "w28",
+                "w16", "w24", "w51", "w52", "w53", "w54", "w55", "w56", "w59", "w60"
+              ],
+              text: `
+                .300 Bolt Action Rifle,
+                .340 Weatherby Magnum Bolt Action Rifle,
+                .405 Lever Action Rifle,
+                .45-70 Government Lever Action Rifle,
+                .45-70 Buffalo Rifle,
+                .454 Revolver,
+                .50 Inline Muzzleloader,
+                .50 Inline Muzzleloading Pistol,
+                16GA/9.3x74R Drilling,
+                7mm Magnum Bullpup Rifle,
+                7mm Magnum Break Action Rifle,
+                8x57 IS Anschütz 1780 D FL Bolt Action Rifle,
+                8x57 IS K98k Bolt Action Rifle,
+                9.3x62 Anschütz 1780 D FL Bolt Action Rifle,
+                9.3x74R O/U Break Action Rifle,
+                any Compound bow,
+                any Recurve bow,
+                any Crossbow
+              `
+            },
             {
               equipments: ["eq2", "eq3"],
               text: "Require to be killed from a Tree Stand or Tripod Stand"
@@ -840,7 +1001,34 @@ export const useStoreMissions = defineStore('missions', () => {
           sameHunt: true,
           selected: false,
           passable: true,
-          require: [],
+          require: [
+            {
+              weapons: [
+                "w8", "w17", "w20", "w21", "w30", "w45", "w49", "w50", "w31", "w13", "w22", "w15", "w28",
+                "w16", "w24", "w51", "w52", "w53", "w54", "w55", "w56", "w59", "w60"
+              ],
+              text: `
+                .300 Bolt Action Rifle,
+                .340 Weatherby Magnum Bolt Action Rifle,
+                .405 Lever Action Rifle,
+                .45-70 Government Lever Action Rifle,
+                .45-70 Buffalo Rifle,
+                .454 Revolver,
+                .50 Inline Muzzleloader,
+                .50 Inline Muzzleloading Pistol,
+                16GA/9.3x74R Drilling,
+                7mm Magnum Bullpup Rifle,
+                7mm Magnum Break Action Rifle,
+                8x57 IS Anschütz 1780 D FL Bolt Action Rifle,
+                8x57 IS K98k Bolt Action Rifle,
+                9.3x62 Anschütz 1780 D FL Bolt Action Rifle,
+                9.3x74R O/U Break Action Rifle,
+                any Compound bow,
+                any Recurve bow,
+                any Crossbow
+              `
+            }
+          ],
           hint: {
             text: "",
             imageURL: "",
@@ -859,7 +1047,34 @@ export const useStoreMissions = defineStore('missions', () => {
           sameHunt: false,
           selected: false,
           passable: true,
-          require: [],
+          require: [
+            {
+              weapons: [
+                "w8", "w17", "w20", "w21", "w30", "w45", "w49", "w50", "w31", "w13", "w22", "w15", "w28",
+                "w16", "w24", "w51", "w52", "w53", "w54", "w55", "w56", "w59", "w60"
+              ],
+              text: `
+                .300 Bolt Action Rifle,
+                .340 Weatherby Magnum Bolt Action Rifle,
+                .405 Lever Action Rifle,
+                .45-70 Government Lever Action Rifle,
+                .45-70 Buffalo Rifle,
+                .454 Revolver,
+                .50 Inline Muzzleloader,
+                .50 Inline Muzzleloading Pistol,
+                16GA/9.3x74R Drilling,
+                7mm Magnum Bullpup Rifle,
+                7mm Magnum Break Action Rifle,
+                8x57 IS Anschütz 1780 D FL Bolt Action Rifle,
+                8x57 IS K98k Bolt Action Rifle,
+                9.3x62 Anschütz 1780 D FL Bolt Action Rifle,
+                9.3x74R O/U Break Action Rifle,
+                any Compound bow,
+                any Recurve bow,
+                any Crossbow
+              `
+            }
+          ],
           hint: {
             text: "",
             imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/1/12/Pb_boss_banteng.png",
@@ -1162,7 +1377,34 @@ export const useStoreMissions = defineStore('missions', () => {
           sameHunt: true,
           selected: false,
           passable: true,
-          require: [],
+          require: [
+            {
+              weapons: [
+                "w8", "w17", "w20", "w21", "w30", "w45", "w49", "w50", "w31", "w13", "w22", "w15", "w28",
+                "w16", "w24", "w51", "w52", "w53", "w54", "w55", "w56", "w59", "w60"
+              ],
+              text: `
+                .300 Bolt Action Rifle,
+                .340 Weatherby Magnum Bolt Action Rifle,
+                .405 Lever Action Rifle,
+                .45-70 Government Lever Action Rifle,
+                .45-70 Buffalo Rifle,
+                .454 Revolver,
+                .50 Inline Muzzleloader,
+                .50 Inline Muzzleloading Pistol,
+                16GA/9.3x74R Drilling,
+                7mm Magnum Bullpup Rifle,
+                7mm Magnum Break Action Rifle,
+                8x57 IS Anschütz 1780 D FL Bolt Action Rifle,
+                8x57 IS K98k Bolt Action Rifle,
+                9.3x62 Anschütz 1780 D FL Bolt Action Rifle,
+                9.3x74R O/U Break Action Rifle,
+                any Compound bow,
+                any Recurve bow,
+                any Crossbow
+              `
+            }
+          ],
           hint: {
             text: "",
             imageURL: "",
@@ -1180,7 +1422,34 @@ export const useStoreMissions = defineStore('missions', () => {
           sameHunt: false,
           selected: false,
           passable: true,
-          require: [],
+          require: [
+            {
+              weapons: [
+                "w8", "w17", "w20", "w21", "w30", "w45", "w49", "w50", "w31", "w13", "w22", "w15", "w28",
+                "w16", "w24", "w51", "w52", "w53", "w54", "w55", "w56", "w59", "w60"
+              ],
+              text: `
+                .300 Bolt Action Rifle,
+                .340 Weatherby Magnum Bolt Action Rifle,
+                .405 Lever Action Rifle,
+                .45-70 Government Lever Action Rifle,
+                .45-70 Buffalo Rifle,
+                .454 Revolver,
+                .50 Inline Muzzleloader,
+                .50 Inline Muzzleloading Pistol,
+                16GA/9.3x74R Drilling,
+                7mm Magnum Bullpup Rifle,
+                7mm Magnum Break Action Rifle,
+                8x57 IS Anschütz 1780 D FL Bolt Action Rifle,
+                8x57 IS K98k Bolt Action Rifle,
+                9.3x62 Anschütz 1780 D FL Bolt Action Rifle,
+                9.3x74R O/U Break Action Rifle,
+                any Compound bow,
+                any Recurve bow,
+                any Crossbow
+              `
+            }
+          ],
           hint: {
             text: "",
             imageURL: "",
@@ -1271,7 +1540,34 @@ export const useStoreMissions = defineStore('missions', () => {
           sameHunt: true,
           selected: false,
           passable: true,
-          require: [],
+          require: [
+            {
+              weapons: [
+                "w8", "w17", "w20", "w21", "w30", "w45", "w49", "w50", "w31", "w13", "w22", "w15", "w28",
+                "w16", "w24", "w51", "w52", "w53", "w54", "w55", "w56", "w59", "w60"
+              ],
+              text: `
+                .300 Bolt Action Rifle,
+                .340 Weatherby Magnum Bolt Action Rifle,
+                .405 Lever Action Rifle,
+                .45-70 Government Lever Action Rifle,
+                .45-70 Buffalo Rifle,
+                .454 Revolver,
+                .50 Inline Muzzleloader,
+                .50 Inline Muzzleloading Pistol,
+                16GA/9.3x74R Drilling,
+                7mm Magnum Bullpup Rifle,
+                7mm Magnum Break Action Rifle,
+                8x57 IS Anschütz 1780 D FL Bolt Action Rifle,
+                8x57 IS K98k Bolt Action Rifle,
+                9.3x62 Anschütz 1780 D FL Bolt Action Rifle,
+                9.3x74R O/U Break Action Rifle,
+                any Compound bow,
+                any Recurve bow,
+                any Crossbow
+              `
+            }
+          ],
           hint: {
             text: "",
             imageURL: "",
@@ -6691,7 +6987,7 @@ export const useStoreMissions = defineStore('missions', () => {
           passable: true,
           require: [
             {
-              equipments: ["w37"],
+              weapons: ["w37"],
               text: "12 GA Blaser F3 Game O/U Shotgun"
             }
           ],
@@ -9556,7 +9852,28 @@ export const useStoreMissions = defineStore('missions', () => {
           sameHunt: false,
           selected: false,
           passable: true,
-          require: [],
+          require: [
+            {
+              weapons: [
+                "w17", "w20", "w21", "w30", "w45", "w49", "w50", "w31",
+                "w24", "w51", "w52", "w53", "w54", "w55", "w56", "w59", "w60"
+              ],
+              text: `
+                .340 Weatherby Magnum Bolt Action Rifle,
+                .405 Lever Action Rifle,
+                .45-70 Government Lever Action Rifle,
+                .45-70 Buffalo Rifle,
+                .454 Revolver,
+                .50 Inline Muzzleloader,
+                .50 Inline Muzzleloading Pistol,
+                16GA/9.3x74R Drilling,
+                9.3x74R O/U Break Action Rifle,
+                any Compound bow,
+                any Recurve bow,
+                any Crossbow
+              `
+            }
+          ],
           hint: {
             text: "",
             imageURL: "",
@@ -9575,7 +9892,28 @@ export const useStoreMissions = defineStore('missions', () => {
           sameHunt: false,
           selected: false,
           passable: true,
-          require: [],
+          require: [
+            {
+              weapons: [
+                "w17", "w20", "w21", "w30", "w45", "w49", "w50", "w31",
+                "w24", "w51", "w52", "w53", "w54", "w55", "w56", "w59", "w60"
+              ],
+              text: `
+                .340 Weatherby Magnum Bolt Action Rifle,
+                .405 Lever Action Rifle,
+                .45-70 Government Lever Action Rifle,
+                .45-70 Buffalo Rifle,
+                .454 Revolver,
+                .50 Inline Muzzleloader,
+                .50 Inline Muzzleloading Pistol,
+                16GA/9.3x74R Drilling,
+                9.3x74R O/U Break Action Rifle,
+                any Compound bow,
+                any Recurve bow,
+                any Crossbow
+              `
+            }
+          ],
           hint: {
             text: "",
             imageURL: "",
@@ -9593,7 +9931,28 @@ export const useStoreMissions = defineStore('missions', () => {
           sameHunt: false,
           selected: false,
           passable: true,
-          require: [],
+          require: [
+            {
+              weapons: [
+                "w17", "w20", "w21", "w30", "w45", "w49", "w50", "w31",
+                "w24", "w51", "w52", "w53", "w54", "w55", "w56", "w59", "w60"
+              ],
+              text: `
+                .340 Weatherby Magnum Bolt Action Rifle,
+                .405 Lever Action Rifle,
+                .45-70 Government Lever Action Rifle,
+                .45-70 Buffalo Rifle,
+                .454 Revolver,
+                .50 Inline Muzzleloader,
+                .50 Inline Muzzleloading Pistol,
+                16GA/9.3x74R Drilling,
+                9.3x74R O/U Break Action Rifle,
+                any Compound bow,
+                any Recurve bow,
+                any Crossbow
+              `
+            }
+          ],
           hint: {
             text: "",
             imageURL: "",
@@ -9611,7 +9970,28 @@ export const useStoreMissions = defineStore('missions', () => {
           sameHunt: true,
           selected: false,
           passable: true,
-          require: [],
+          require: [
+            {
+              weapons: [
+                "w17", "w20", "w21", "w30", "w45", "w49", "w50", "w31",
+                "w24", "w51", "w52", "w53", "w54", "w55", "w56", "w59", "w60"
+              ],
+              text: `
+                .340 Weatherby Magnum Bolt Action Rifle,
+                .405 Lever Action Rifle,
+                .45-70 Government Lever Action Rifle,
+                .45-70 Buffalo Rifle,
+                .454 Revolver,
+                .50 Inline Muzzleloader,
+                .50 Inline Muzzleloading Pistol,
+                16GA/9.3x74R Drilling,
+                9.3x74R O/U Break Action Rifle,
+                any Compound bow,
+                any Recurve bow,
+                any Crossbow
+              `
+            }
+          ],
           hint: {
             text: "",
             imageURL: "",
@@ -9653,7 +10033,28 @@ export const useStoreMissions = defineStore('missions', () => {
           sameHunt: false,
           selected: false,
           passable: true,
-          require: [],
+          require: [
+            {
+              weapons: [
+                "w17", "w20", "w21", "w30", "w45", "w49", "w50", "w31",
+                "w24", "w51", "w52", "w53", "w54", "w55", "w56", "w59", "w60"
+              ],
+              text: `
+                .340 Weatherby Magnum Bolt Action Rifle,
+                .405 Lever Action Rifle,
+                .45-70 Government Lever Action Rifle,
+                .45-70 Buffalo Rifle,
+                .454 Revolver,
+                .50 Inline Muzzleloader,
+                .50 Inline Muzzleloading Pistol,
+                16GA/9.3x74R Drilling,
+                9.3x74R O/U Break Action Rifle,
+                any Compound bow,
+                any Recurve bow,
+                any Crossbow
+              `
+            }
+          ],
           hint: {
             text: "",
             imageURL: "",
@@ -9694,7 +10095,28 @@ export const useStoreMissions = defineStore('missions', () => {
           sameHunt: false,
           selected: false,
           passable: true,
-          require: [],
+          require: [
+            {
+              weapons: [
+                "w17", "w20", "w21", "w30", "w45", "w49", "w50", "w31",
+                "w24", "w51", "w52", "w53", "w54", "w55", "w56", "w59", "w60"
+              ],
+              text: `
+                .340 Weatherby Magnum Bolt Action Rifle,
+                .405 Lever Action Rifle,
+                .45-70 Government Lever Action Rifle,
+                .45-70 Buffalo Rifle,
+                .454 Revolver,
+                .50 Inline Muzzleloader,
+                .50 Inline Muzzleloading Pistol,
+                16GA/9.3x74R Drilling,
+                9.3x74R O/U Break Action Rifle,
+                any Compound bow,
+                any Recurve bow,
+                any Crossbow
+              `
+            }
+          ],
           hint: {
             text: "",
             imageURL: "",
@@ -10062,7 +10484,7 @@ export const useStoreMissions = defineStore('missions', () => {
       ],
     },
     {
-      id: "m45",
+      id: "m46",
       name: "Wild Boar Missions",
       displayName: "Wild Boar",
       animalID: "an49",
@@ -10072,7 +10494,7 @@ export const useStoreMissions = defineStore('missions', () => {
       bgURL: "https://i.postimg.cc/fbWdWb1M/1Q8E8Rr9.jpg",
       missionsList: [
         {
-          missionID: "m45-1",
+          missionID: "m46-1",
           name: "An Old Acquaintance",
           earnings: "100",
           singleplayer: false,
@@ -10091,7 +10513,7 @@ export const useStoreMissions = defineStore('missions', () => {
           ],
         },
         {
-          missionID: "m45-2",
+          missionID: "m46-2",
           name: "Boared to Death",
           earnings: "200",
           singleplayer: false,
@@ -10110,7 +10532,7 @@ export const useStoreMissions = defineStore('missions', () => {
           ],
         },
         {
-          missionID: "m45-3",
+          missionID: "m46-3",
           name: "Three Little Piggies",
           earnings: "300",
           singleplayer: false,
@@ -10128,7 +10550,7 @@ export const useStoreMissions = defineStore('missions', () => {
           ],
         },
         {
-          missionID: "m45-4",
+          missionID: "m46-4",
           name: "Mother's Day",
           earnings: "400",
           singleplayer: false,
@@ -10146,7 +10568,7 @@ export const useStoreMissions = defineStore('missions', () => {
           ],
         },
         {
-          missionID: "m45-5",
+          missionID: "m46-5",
           name: "Family Values",
           earnings: "600",
           singleplayer: false,
@@ -10169,7 +10591,7 @@ export const useStoreMissions = defineStore('missions', () => {
           ],
         },
         {
-          missionID: "m45-6",
+          missionID: "m46-6",
           name: "It's Lützen All Over Again",
           earnings: "800",
           singleplayer: false,
@@ -10192,7 +10614,7 @@ export const useStoreMissions = defineStore('missions', () => {
           ],
         },
         {
-          missionID: "m45-7",
+          missionID: "m46-7",
           name: "Up Close and Personal",
           earnings: "1000",
           singleplayer: false,
@@ -10211,7 +10633,7 @@ export const useStoreMissions = defineStore('missions', () => {
           ],
         },
         {
-          missionID: "m45-8",
+          missionID: "m46-8",
           name: "Old School",
           earnings: "1200",
           singleplayer: false,
@@ -10234,7 +10656,7 @@ export const useStoreMissions = defineStore('missions', () => {
           ],
         },
         {
-          missionID: "m45-9",
+          missionID: "m46-9",
           name: "Older School",
           earnings: "1800",
           singleplayer: false,
@@ -10257,7 +10679,7 @@ export const useStoreMissions = defineStore('missions', () => {
           ],
         },
         {
-          missionID: "m45-10",
+          missionID: "m46-10",
           name: "There Can Be Only One",
           earnings: "3600",
           singleplayer: true,
@@ -10277,7 +10699,7 @@ export const useStoreMissions = defineStore('missions', () => {
       ],
     },
     {
-      id: "m46",
+      id: "m47",
       name: "Wood Grouse Missions",
       displayName: "Wood Grouse",
       animalID: "an51",
@@ -10287,7 +10709,7 @@ export const useStoreMissions = defineStore('missions', () => {
       bgURL: "https://i.postimg.cc/1RCNdqkM/output.jpg",
       missionsList: [
         {
-          missionID: "m46-1",
+          missionID: "m47-1",
           name: "A New Menace",
           earnings: "100",
           singleplayer: false,
@@ -10305,7 +10727,7 @@ export const useStoreMissions = defineStore('missions', () => {
           ],
         },
         {
-          missionID: "m46-2",
+          missionID: "m47-2",
           name: "Sound It Out",
           earnings: "200",
           singleplayer: false,
@@ -10323,7 +10745,7 @@ export const useStoreMissions = defineStore('missions', () => {
           ],
         },
         {
-          missionID: "m46-3",
+          missionID: "m47-3",
           name: "Priorities",
           earnings: "300",
           singleplayer: false,
@@ -10341,7 +10763,7 @@ export const useStoreMissions = defineStore('missions', () => {
           ],
         },
         {
-          missionID: "m46-4",
+          missionID: "m47-4",
           name: "Fair Division",
           earnings: "400",
           singleplayer: false,
@@ -10359,7 +10781,7 @@ export const useStoreMissions = defineStore('missions', () => {
           ],
         },
         {
-          missionID: "m46-5",
+          missionID: "m47-5",
           name: "Checking Skirts",
           earnings: "600",
           singleplayer: false,
@@ -10378,7 +10800,7 @@ export const useStoreMissions = defineStore('missions', () => {
           ],
         },
         {
-          missionID: "m46-6",
+          missionID: "m47-6",
           name: "A Shot in the Dark",
           earnings: "800",
           singleplayer: false,
@@ -10396,7 +10818,7 @@ export const useStoreMissions = defineStore('missions', () => {
           ],
         },
         {
-          missionID: "m46-7",
+          missionID: "m47-7",
           name: "Sizing Up",
           earnings: "1000",
           singleplayer: false,
@@ -10415,7 +10837,7 @@ export const useStoreMissions = defineStore('missions', () => {
           ],
         },
         {
-          missionID: "m46-8",
+          missionID: "m47-8",
           name: "Student and Master",
           earnings: "1200",
           singleplayer: false,
@@ -10441,7 +10863,7 @@ export const useStoreMissions = defineStore('missions', () => {
           ],
         },
         {
-          missionID: "m46-9",
+          missionID: "m47-9",
           name: "Process of Elimination",
           earnings: "1800",
           singleplayer: false,
@@ -10461,7 +10883,7 @@ export const useStoreMissions = defineStore('missions', () => {
           ],
         },
         {
-          missionID: "m46-10",
+          missionID: "m47-10",
           name: "The Drumstick Challenge",
           earnings: "3600",
           singleplayer: false,
@@ -10489,7 +10911,7 @@ export const useStoreMissions = defineStore('missions', () => {
     {
       id: "r1a",
       name: "Whiteheart Sightseeing Missions",
-      displayName: "Whiteheart Sightseeing Missions",
+      displayName: "Whiteheart Sightseeing",
       animalID: "r1",
       filterArray: ["r1"], // Reservati na kojim se nalazi
       missionPackValue: "1.000gm$",
@@ -10578,7 +11000,7 @@ export const useStoreMissions = defineStore('missions', () => {
     {
       id: "r1b",
       name: "Whiteheart Travel Missions",
-      displayName: "Whiteheart Travel Missions",
+      displayName: "Whiteheart Travel",
       animalID: "r1",
       filterArray: ["r1"], // Reservati na kojim se nalazi
       missionPackValue: "10.700gm$",
@@ -10888,7 +11310,7 @@ export const useStoreMissions = defineStore('missions', () => {
     {
       id: "r3",
       name: " Settler Creeks Missions",
-      displayName: "Settler Creeks Travel Missions",
+      displayName: "Settler Creeks Travel",
       animalID: "r3",
       filterArray: ["r3"], // Reservati na kojim se nalazi
       missionPackValue: "10.000gm$",
@@ -11186,7 +11608,7 @@ export const useStoreMissions = defineStore('missions', () => {
     {
       id: "r4",
       name: "Redfeather Falls Missions",
-      displayName: "Redfeather Falls Travel Missions",
+      displayName: "Redfeather Falls Travel",
       animalID: "r4",
       filterArray: ["r4"], // Reservati na kojim se nalazi
       missionPackValue: "10.700gm$",
@@ -11268,7 +11690,7 @@ export const useStoreMissions = defineStore('missions', () => {
         {
           missionID: "r4-4",
           name: "Thinning Out The Population: Roosevelt Elk",
-          earnings: "400",
+          earnings: "500",
           singleplayer: true,
           sameHunt: true,
           selected: false,
@@ -11280,18 +11702,20 @@ export const useStoreMissions = defineStore('missions', () => {
             link: ""
           },
           goals: [
-            "Start from Highland Lodge in Settler Creeks.",
-            "Then arrive at Tower 2 (x -7583, y 4572) in the same hunt.",
-            "Then arrive at Tower 3 (x -7438, y 4984) in the same hunt.",
-            "At any point during the same hunt, ID an audio clue from a Roosevelt Elk.",
+            "Start at Darkwood Lodge in Redfeather Falls.",
+            "Then arrive at Tower 6 (x -10176, y -3696) in the same hunt.",
+            "Then arrive at Tower 4 (x -10023, y -2535) in the same hunt.",
             "At any point during the same hunt, harvest a Roosevelt Elk.",
-            "At any point during the same hunt, harvest another Roosevelt Elk."
+            "At any point during the same hunt, harvest a second Roosevelt Elk.",
+            "At any point during the same hunt, harvest a third Roosevelt Elk.",
+            "At any point during the same hunt, harvest a fourth Roosevelt Elk.",
+            "At any point during the same hunt, harvest a fifth Roosevelt Elk."
           ],
         },
         {
           missionID: "r4-5",
-          name: "Never Brief On An Empty Stomach",
-          earnings: "600",
+          name: "Thinning Out The Population: Deer",
+          earnings: "700",
           singleplayer: true,
           sameHunt: true,
           selected: false,
@@ -11299,25 +11723,25 @@ export const useStoreMissions = defineStore('missions', () => {
           require: [],
           hint: {
             text: "",
-            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/c/ca/Sc_mission_5.png",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/c/c2/RFF_missions_5.png",
             link: ""
           },
           goals: [
-            "Start from Homestead Lodge in Settler Creeks.",
-            "Then arrive at Tower 5 (x -6582, y 6229) in the same hunt.",
-            "Then arrive at Fort David in the same hunt.",
-            "Then arrive at Tower 4 (x -6889, y 5005) in the same hunt.",
-            "At any point during the same hunt, ID any clue from a Black Bear.",
-            "At any point during the same hunt, ID any clue from a Cottontail Rabbit.",
-            "At any point during the same hunt, harvest a Cottontail Rabbit.",
-            "At any point during the same hunt, harvest a Turkey.",
-            "At any point during the same hunt, harvest another Turkey"
+            "Start at Trapper's Rest Lodge in Redfeather Falls.",
+            "Then arrive at Tower 2 (x -12115, y -1979) in the same hunt.",
+            "Then arrive at Tower 1 (x -11806, y -2588) in the same hunt.",
+            "Then arrive at The Crater (x -11265, y -4000) in the same hunt.",
+            "At any point during the same hunt, harvest a Whitetail Deer.",
+            "At any point during the same hunt, harvest a second Whitetail Deer.",
+            "At any point during the same hunt, harvest a third Whitetail Deer.",
+            "At any point during the same hunt, harvest a Blacktail Deer.",
+            "At any point during the same hunt, harvest a second Blacktail Deer."
           ],
         },
         {
           missionID: "r4-6",
-          name: "Back To Success",
-          earnings: "800",
+          name: "Thinning Out The Population: Moose and Bears",
+          earnings: "1000",
           singleplayer: true,
           sameHunt: true,
           selected: false,
@@ -11330,57 +11754,934 @@ export const useStoreMissions = defineStore('missions', () => {
           ],
           hint: {
             text: "",
-            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/4/45/Sc_mission_6.png",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/7/70/RFF_missions_6.png",
             link: ""
           },
           goals: [
-            "Start from Highland Lodge in Settler Creeks.",
-            "Then arrive at Tower 2 (x -7583, y 4572) in the same hunt.",
-            "Then arrive at Tower 3 (x -7438, y 4984) in the same hunt.",
-            "Then arrive at Tower 4 (x -6889, y 5005) in the same hunt.",
-            "Then arrive at Tower 10 (x -6200, y 4814) in the same hunt.",
-            "At any point during the same hunt, ID an audio clue from a Roosevelt Elk.",
-            "At any point during the same hunt, harvest a Roosevelt Elk with the 7mm Break-Action Rifle.",
-            "At any point during the same hunt, harvest a Turkey."
+            "Start at Trapper's Rest Lodge in Redfeather Falls.",
+            "Then arrive at The Crater (x -11265, y -4000) in the same hunt.",
+            "Then arrive at The Lonely Creek (x -10746, y -5436) in the same hunt.",
+            "Then arrive at Peak Forest (x -12263, y -6367) in the same hunt.",
+            "At any point during the same hunt, harvest a Black Bear killed with any 7mm Break Action Rifle.",
+            "At any point during the same hunt, harvest a Moose.",
+            "At any point during the same hunt, harvest a second Moose.",
+            "At any point during the same hunt, harvest a third Moose.",
+            "At any point during the same hunt, harvest a second Black Bear killed with any 7mm Break Action Rifle."
           ],
         },
         {
           missionID: "r4-7",
-          name: "Small Game Night",
-          earnings: "1000",
+          name: "Check The Situation",
+          earnings: "1300",
           singleplayer: true,
           sameHunt: true,
           selected: false,
           passable: true,
           require: [
             {
-              weapons: ["w51", "w52", "w53", "w54", "w55", "w56", "w57", "w58"],
-              text: "Use any bow"
+              weapons: ["w13", "w22"],
+              text: "7mm Magnum Bullpup Rifle, 7mm Magnum Break Action Rifle"
             }
           ],
           hint: {
-            text: "Note that these objectives do not need to be done in one hunt.",
-            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/c/ce/Sc_mission_7.png",
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/d/da/RFF_missions_7.png",
             link: ""
           },
           goals: [
-            "Start from Highland Lodge in Settler Creeks.",
-            "Then arrive at Tower 2 (x -7583, y 4572).",
-            "Then arrive at Tower 7 (x -7150, y 4433).",
-            "Then arrive at Tower 4 (x -6889, y 5005).",
-            "Then arrive at Tower 6 (x -6494, y 4094).",
-            "At any point while in Settler Creeks, ID an audio clue from a Whitetail Deer.",
-            "At any point while in Settler Creeks, harvest a Whitetail Deer.",
-            "At any point while in Settler Creeks, harvest a Turkey.",
-            "At any point while in Settler Creeks, harvest another Turkey.",
-            "At any point while in Settler Creeks, harvest a Cottontail Rabbit killed with any Bow*."
+            "Start at Trapper's Rest Lodge in Redfeather Falls.",
+            "Then arrive at Tower 3 (x -10957, y -1741) in the same hunt.",
+            "Then arrive at Tower 4 (x -10023, y -2535) in the same hunt.",
+            "Then arrive at Tower 6 (x -10176, y -3696) in the same hunt.",
+            "At any point during the same hunt, ID a clue from a Whitetail Deer.",
+            "At any point during the same hunt, ID an audio clue from a Moose.",
+            "At any point during the same hunt, spot a Moose.",
+            "At any point during the same hunt, harvest a Moose killed with 7mm ammunition.",
+            "At any point during the same hunt, spot a Whitetail Deer.",
+            "At any point during the same hunt, ID droppings from a Blacktail Deer.",
+            "At any point during the same hunt, ID tracks from a Blacktail Deer.",
+            "At any point during the same hunt, harvest a Blacktail Deer killed with 7mm ammunition."
           ],
         },
         {
           missionID: "r4-8",
-          name: "Tasty Bear",
-          earnings: "1200",
+          name: "Calming Down",
+          earnings: "1600",
           singleplayer: true,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w48"],
+              text: ".50 Cap Lock Muzzleloader"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/b/bc/RFF_missions_8.png",
+            link: ""
+          },
+          goals: [
+            "Start at Darkwood Lodge in Redfeather Falls.",
+            "Then arrive at Tower 6 (x -10176, y -3696) in the same hunt.",
+            "Then arrive at The Crater (x -11265, y -4000) in the same hunt.",
+            "Then arrive at Tower 1 (x -11806, y -2588) in the same hunt.",
+            "At any point during the same hunt, harvest a Roosevelt Elk.",
+            "At any point during the same hunt, harvest a Moose.",
+            "At any point during the same hunt, harvest a Blacktail Deer.",
+            "At any point during the same hunt, harvest a Whitetail Deer.",
+            "At any point during the same hunt, harvest a Black Bear killed with the .50 Cap Lock Muzzleloader."
+          ],
+        },
+        {
+          missionID: "r4-9",
+          name: "Last Drop(ings)",
+          earnings: "2000",
+          singleplayer: true,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w60"],
+              text: "Tenpoint Carbon Fusion Crossbow"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/2/2a/RFF_missions_9.png",
+            link: ""
+          },
+          goals: [
+            "Start at Darkwood Lodge in Redfeather Falls.",
+            "Then arrive at Tower 6 (x -10176, y -3696) in the same hunt.",
+            "Then arrive at The Lonely Creek (x -10746, y -5436) in the same hunt.",
+            "At any point during the same hunt, ID dropping from a Roosevelt Elk.",
+            "At any point during the same hunt, ID dropping from a Blacktail Deer.",
+            "At any point during the same hunt, ID an audio clue from a Moose.",
+            "At any point during the same hunt, ID dropping from a Moose.",
+            "At any point during the same hunt, harvest a Moose killed with the Tenpoint Carbon Fusion Crossbow.",
+            "At any point during the same hunt, ID dropping from a Black Bear.",
+            "At any point during the same hunt, ID an audio clue from a Whitetail Deer."
+          ],
+        },
+        {
+          missionID: "r4-10",
+          name: "The Oldies",
+          earnings: "3000",
+          singleplayer: true,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w34"],
+              text: "12 GA Pump Action Shotgun"
+            }
+          ],
+          hint: {
+            text: "Note that these objectives do not need to be done in one hunt",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/2/2d/RFF_missions_10.png",
+            link: ""
+          },
+          goals: [
+            "Start at Darkwood Lodge in Redfeather Falls.",
+            "Then arrive at Tower 6 (x -10176, y -3696).",
+            "Then arrive at Tower 4 (x -10023, y -2535).",
+            "Then arrive at Tower 3 (x -10957, y -1731).",
+            "Then arrive at Tower 2 (x -12115, y -1979).",
+            "Then arrive at Crater (x -11265, y -4000).",
+            "Then arrive at The Lonely Creek (x -10746, y -5436).",
+            "Then arrive at Peak Forest (x -12263, y -6367).",
+            "At any point while in Redfeather Falls, harvest a male Roosevelt Elk weighing at least 435 kg.",
+            "At any point while in Redfeather Fallss, harvest a female Whitetail Deer weighing at least 51 kg.",
+            "At any point while in Redfeather Falls, harvest a female Blacktail Deer weighing at least 51 kg.",
+            "At any point while in Redfeather Falls, harvest a male Moose weighing at least 525 kg.",
+            "At any point while in Redfeather Falls, harvest a male Black Bear weighing at least 220 kg killed by the 12 GA Pump Action Shotgun."
+          ],
+        },
+      ],
+    },
+    {
+      id: "r5",
+      name: "Hirschfelden Missions",
+      displayName: "Hirschfelden Travel",
+      animalID: "r5",
+      filterArray: ["r5"], // Reservati na kojim se nalazi
+      missionPackValue: "10.000gm$",
+      imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/f/f0/Hirschfelden_icon.png",
+      bgURL: "https://i.postimg.cc/fbWdWb1M/1Q8E8Rr9.jpg",
+      missionsList: [
+        {
+          missionID: "r5-1",
+          name: "Learn From The Land",
+          earnings: "100",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false, // da li je zavrsena misija
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/2/23/HF_Mission_1.png",
+            link: ""
+          },
+          goals: [
+            "Start at Müllerwaldhütte in Hirschfelden.",
+            "Then arrive at Tower 7 (x 9992, y -50) during the same hunt.",
+            "Then arrive at Tower 5 (x 8814, y -1145) during the same hunt.",
+            "At any point during the same hunt, ID any clue from a Pheasant.",
+            "At any point during the same hunt, ID any clue from a Wild Boar.",
+            "At any point during the same hunt, ID any clue from a Roe Deer."
+          ],
+        },
+        {
+          missionID: "r5-2",
+          name: "Learn The Rest",
+          earnings: "200",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/5/59/HF_Mission_2.png",
+            link: ""
+          },
+          goals: [
+            "Start at Rittersteinhütte in Hirschfelden.",
+            "Then arrive at Tower 1 (x 8711, y 1487) during the same hunt.",
+            "Then arrive at Tower 6 (x 10186, y 1253) during the same hunt.",
+            "At any point during the same hunt, ID any clue from a Red Deer.",
+            "At any point during the same hunt, ID any clue from a Red Fox.",
+            "At any point during the same hunt, Spot a Canada Goose."
+          ],
+        },
+        {
+          missionID: "r5-3",
+          name: "The First Wurst",
+          earnings: "300",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/d/d8/HF_Mission_3.png",
+            link: ""
+          },
+          goals: [
+            "Start at Müllerwaldhütte in Hirschfelden.",
+            "Then arrive at Tower 4 (x 8504, y -25) during the same hunt.",
+            "Then arrive at Tower 2 (x 8849, y 335) during the same hunt.",
+            "Then arrive at Tower 3 (x 9075, y 248) during the same hunt.",
+            "Then arrive at Tower 1 (x 8711, y 1487) during the same hunt.",
+            "At any point during the same hunt, harvest a Wild Boar.",
+            "At any point during the same hunt, harvest another Wild Boar."
+          ],
+        },
+        {
+          missionID: "r5-4",
+          name: "If At First You Fail",
+          earnings: "400",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/0/03/HF_Mission_4.png",
+            link: ""
+          },
+          goals: [
+            "Start at Rittersteinhütte in Hirschfelden.",
+            "Then arrive at Tower 1 (x 8711, y 1487) during the same hunt.",
+            "Then arrive at Tower 7 (x 9992, y -50) during the same hunt.",
+            "Then arrive at Tower 6 (x 10186, y 1253) during the same hunt.",
+            "At any point during the same hunt, ID tracks of a Red Deer.",
+            "At any point during the same hunt, harvest a Canada Goose."
+          ],
+        },
+        {
+          missionID: "r5-5",
+          name: "Third Times The Charm",
+          earnings: "600",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/2/22/HF_Mission_5.png",
+            link: ""
+          },
+          goals: [
+            "Start at Müllerwaldhütte in Hirschfelden.",
+            "Then arrive at Tower 7 (x 9992, y -50) during the same hunt.",
+            "Then arrive at Tower 5 (x 8814, y -1145) during the same hunt.",
+            "Then arrive at Tower 4 (x 8504, y -25) during the same hunt.",
+            "At any point during the same hunt, ID droppings from a Wild Boar.",
+            "At any point during the same hunt, ID more droppings from a Wild Boar.",
+            "At any point during the same hunt, harvest a Wild Boar.",
+            "At any point during the same hunt, harvest a Canada Goose."
+          ],
+        },
+        {
+          missionID: "r5-6",
+          name: "Cleanse The Boars",
+          earnings: "800",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/c/c8/HF_Mission_6.png",
+            link: ""
+          },
+          goals: [
+            "Start at Müllerwaldhütte in Hirschfelden.",
+            "Then arrive at Tower 7 (x 9992, y -50) during the same hunt.",
+            "Then arrive at Tower 6 (x 10186, y 1253) during the same hunt.",
+            "Then arrive at Tower 3 (x 9075, y 248) during the same hunt.",
+            "At any point during the same hunt, harvest an airborne Pheasant killed with any Shotgun.",
+            "At any point during the same hunt, harvest a second airborne Pheasant killed with any Shotgun.",
+            "At any point during the same hunt, harvest a third airborne Pheasant killed with any Shotgun.",
+            "At any point during the same hunt, harvest a fourth airborne Pheasant killed with any Shotgun.",
+            "At any point during the same hunt, harvest a fifth airborne Pheasant killed with any Shotgun."
+          ],
+        },
+        {
+          missionID: "r5-7",
+          name: "Red Is The Key",
+          earnings: "1000",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w57"],
+              text: "Longbow"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/a/a5/HF_Mission_7.png",
+            link: ""
+          },
+          goals: [
+            "Start at Rittersteinhütte in Hirschfelden.",
+            "Then arrive at Tower 1 (x 8711, y 1487) during the same hunt.",
+            "Then arrive at Tower 2 (x 8849, y 335) during the same hunt.",
+            "Then arrive at Tower 3 (x 9075, y 248) during the same hunt.",
+            "At any point during the same hunt, ID droppings from a Red Deer.",
+            "At any point during the same hunt, ID droppings from a Red Fox.",
+            "At any point during the same hunt, harvest a Red Fox killed with a Longbow."
+          ],
+        },
+        {
+          missionID: "r5-8",
+          name: "Mixing It Up",
+          earnings: "1200",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w15"],
+              text: "8x57 IS Anschütz 1780 D FL Bolt Action Rifle"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/8/81/HF_Mission_8.png",
+            link: ""
+          },
+          goals: [
+            "Start at Mullerwaldhütte in Hirschfelden.",
+            "Then arrive at Tower 7 (x 9992, y -50) during the same hunt.",
+            "Then arrive at Tower 6 (x 10186, y 1253) during the same hunt.",
+            "Then arrive at Tower 3 (x 9075, y 248) during the same hunt.",
+            "Then arrive at Tower 4 (x 8504, y -25) during the same hunt.",
+            "At any point during the same hunt, harvest a Pheasant.",
+            "At any point during the same hunt, harvest a Canada Goose.",
+            "At any point during the same hunt, harvest a Roe Deer killed with a 8x57 IS Anschütz 1780 D FL Bolt Action Rifle.",
+            "At any point during the same hunt, harvest a Red Deer."
+          ],
+        },
+        {
+          missionID: "r5-9",
+          name: "Double Deer Wurst",
+          earnings: "1800",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w37"],
+              text: "12 GA Blaser F3 Game O/U Shotgun"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/8/8a/HF_Mission_9.png",
+            link: ""
+          },
+          goals: [
+            "Start at Rittersteinhütte in Hirschfelden.",
+            "Then arrive at Tower 2 (x 8849, y 335) during the same hunt.",
+            "Then arrive at Tower 4 (x 8504, y -25) during the same hunt.",
+            "Then arrive at Tower 7 (x 9992, y -50) during the same hunt.",
+            "At any point during the same hunt, ID an audio clue from a Roe Deer.",
+            "At any point during the same hunt, harvest a Roe Deer.",
+            "At any point during the same hunt, ID an audio clue from a Red Deer.",
+            "At any point during the same hunt, harvest a Red Deer killed with a 12 GA Blaser F3 Game O/U Shotgun.",
+            "At any point during the same hunt, ID an audio clue from a Wild Boar.",
+            "At any point during the same hunt, harvest a Wild Boar."
+          ],
+        },
+        {
+          missionID: "r5-10",
+          name: "A Wurst To Remember",
+          earnings: "3600",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w46"],
+              text: ".308 Handgun"
+            }
+          ],
+          hint: {
+            text: "Note that these objectives do not need to be done in one hunt",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/4/45/HF_Mission_10.png",
+            link: ""
+          },
+          goals: [
+            "Start at Müllerwaldhütte in Hirschfelden.",
+            "Then arrive at Tower 5 (x 8814, y -1145).",
+            "Then arrive at Tower 4 (x 8504, y -25).",
+            "Then arrive at Tower 3 (x 9075, y 248).",
+            "Then arrive at Tower 1 (x 8711, y 1487).",
+            "Then arrive at Tower 6 (x 10186, y 1253).",
+            "At any point while in Hirschfelden, harvest a Wild Boar killed with .308 Handgun",
+            "At any point while in Hirschfelden, harvest a Pheasant.",
+            "At any point while in Hirschfelden, harvest a Red Deer.",
+            "At any point while in Hirschfelden, harvest a Roe Deer.",
+            "At any point while in Hirschfelden, harvest a Red Fox.",
+            "At any point while in Hirschfelden, harvest a Canada Goose."
+          ],
+        },
+      ],
+    },
+    {
+      id: "r6",
+      name: "Hemmeldal Missions",
+      displayName: "Hemmeldal Travel",
+      animalID: "r6",
+      filterArray: ["r6"], // Reservati na kojim se nalazi
+      missionPackValue: "10.700gm$",
+      imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/f/ff/Hemmeldal_Icon.png",
+      bgURL: "https://i.postimg.cc/1RCNdqkM/output.jpg",
+      missionsList: [
+        {
+          missionID: "r6-1",
+          name: "Contamination Check In The North",
+          earnings: "100",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false, // da li je zavrsena misija
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/f/f2/Hemmeldal_mission_1.png",
+            link: ""
+          },
+          goals: [
+            "Start at Koppartorp Lodge in Hemmeldal.",
+            "Then arrive at Tower 3 (x 7840, y -5589) in the same hunt.",
+            "Then arrive at Grimulfr's Sten in the same hunt.",
+            "At any point during the same hunt, ID droppings from a Moose.",
+            "At any point during the same hunt, ID tracks from a Moose.",
+            "At any point during the same hunt, ID a clue from a Reindeer.",
+            "At any point during the same hunt, spot a Reindeer."
+          ],
+        },
+        {
+          missionID: "r6-2",
+          name: "Contamination Check In The South",
+          earnings: "200",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/c/cc/Hemmeldal_mission_2.png",
+            link: ""
+          },
+          goals: [
+            "Start at Drängstorp Lodge in Hemmeldal.",
+            "Then arrive at Tower 1 (x 8713, y -3776) in the same hunt.",
+            "Then arrive at Tower 2 (x 7780, y -4207) in the same hunt.",
+            "Then arrive at Orm's Sten (x 7048, y -3455) in the same hunt.",
+            "At any point during the same hunt, ID an audio clue from a Red Fox.",
+            "At any point during the same hunt, ID a clue from a Brown Bear.",
+            "At any point during the same hunt, spot a Brown Bear.",
+            "At any point during the same hunt, ID tracks from a Roe Deer.",
+            "At any point during the same hunt, harvest a Roe Deer."
+          ],
+        },
+        {
+          missionID: "r6-3",
+          name: "It Is In Their Bodies",
+          earnings: "300",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/6/69/Hemmeldal_mission_3.png",
+            link: ""
+          },
+          goals: [
+            "Start at Drängstorp Lodge in Hemmeldal.",
+            "Then arrive at Tower 1 (x 8713, y -3776) in the same hunt.",
+            "Then arrive at Tower 2 (x 7780, y -4207) in the same hunt.",
+            "Then arrive at Hemmeldal Stenar in the same hunt.",
+            "At any point during the same hunt, spot a Red Fox.",
+            "At any point during the same hunt, harvest a Red Fox.",
+            "At any point during the same hunt, ID droppings from a Brown Bear.",
+            "At any point during the same hunt, harvest a Brown Bear.",
+            "At any point during the same hunt, harvest a Moose."
+          ],
+        },
+        {
+          missionID: "r6-4",
+          name: "Pinpoint The Source",
+          earnings: "500",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/d/d0/Hemmeldal_mission_4.png",
+            link: ""
+          },
+          goals: [
+            "Start at Koppartorp Lodge in Hemmeldal.",
+            "Then arrive at Grimulfr's Sten in the same hunt.",
+            "Then arrive at Orm's Sten (x 7048, y -3455) in the same hunt.",
+            "At any point during the same hunt, ID an audio clue from a Moose.",
+            "At any point during the same hunt, harvest a Moose.",
+            "At any point during the same hunt, harvest a Reindeer.",
+            "At any point during the same hunt, harvest a Roe Deer."
+          ],
+        },
+        {
+          missionID: "r6-5",
+          name: "Source Removed",
+          earnings: "700",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/e/e9/Hemmeldal_mission_5.png",
+            link: ""
+          },
+          goals: [
+            "Start at Drängstorp Lodge in Hemmeldal.",
+            "Then arrive at Orm's Sten (x 7048, y -3455) in the same hunt.",
+            "At any point during the same hunt, harvest any animal except Red Fox southwest of Tower 2.",
+            "At any point during the same hunt, harvest any animal except Red Fox southwest of Tower 2.",
+            "At any point during the same hunt, harvest any animal except Red Fox southwest of Tower 2."
+          ],
+        },
+        {
+          missionID: "r6-6",
+          name: "South East Cleared",
+          earnings: "1000",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w8"],
+              text: ".300 Bolt Action Rifle"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/b/b4/Hemmeldal_mission_6.png",
+            link: ""
+          },
+          goals: [
+            "Start at Drängstorp Lodge in Hemmeldal.",
+            "Then arrive at Tower 1 (x 8713, y -3776) in the same hunt.",
+            "At any point during the same hunt, harvest any animal except Red Fox southeast of Tower 2 killed with .300 Nosler AccuBond ammunition.",
+            "At any point during the same hunt, harvest any animal except Red Fox southeast of Tower 2 killed with .300 Nosler AccuBond ammunition.",
+            "At any point during the same hunt, harvest any animal except Red Fox northeast of Tower 2 but south of Hemmeldal Stenar.",
+            "At any point during the same hunt, harvest any animal except Red Fox northeast of Tower 2 but south of Hemmeldal Stenar."
+          ],
+        },
+        {
+          missionID: "r6-7",
+          name: "Clearing The North",
+          earnings: "1300",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w43"],
+              text: ".44 Revolver"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/9/9e/Hemmeldal_mission_7.png",
+            link: ""
+          },
+          goals: [
+            "Start at Koppartorp Lodge in Hemmeldal.",
+            "Then arrive at Hemmeldal Stenar in the same hunt.",
+            "At any point during the same hunt, harvest any animal except Red Fox northeast of Hemmeldal Stenar.",
+            "At any point during the same hunt, harvest any animal except Red Fox northeast of Hemmeldal Stenar.",
+            "At any point during the same hunt, harvest a Reindeer or Roe Deer northwest of Hemmeldal Stenar killed with .44 Nosler Sporting Handgun ammunition.",
+            "At any point during the same hunt, harvest a Reindeer or Roe Deer northwest of Hemmeldal Stenar killed with .44 Nosler Sporting Handgun ammunition."
+          ],
+        },
+        {
+          missionID: "r6-8",
+          name: "Still Contaminated",
+          earnings: "1600",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/b/b2/Hemmeldal_mission_8.png",
+            link: ""
+          },
+          goals: [
+            "Start at Koppartorp Lodge in Hemmeldal.",
+            "Then arrive at Hemmeldal Stenar in the same hunt.",
+            "Then arrive at Grimulfr's Sten in the same hunt.",
+            "At any point during the same hunt, ID tracks from a Moose.",
+            "At any point during the same hunt, ID tracks from a Roe Deer.",
+            "At any point during the same hunt, ID tracks from a Reindeer.",
+            "At any point during the same hunt, ID tracks from a Brown Bear."
+          ],
+        },
+        {
+          missionID: "r6-9",
+          name: "Second Source Found",
+          earnings: "2000",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w51", "w52", "w53", "w54", "w55", "w56", "w57", "w58", "w59", "w60"],
+              text: "Any Bow or Crossbow"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/0/06/Hemmeldal_mission_9.png",
+            link: ""
+          },
+          goals: [
+            "Start at Koppartorp Lodge in Hemmeldal.",
+            "Then arrive at Hemmeldal Stenar in the same hunt.",
+            "Then arrive at Grimulfr's Sten in the same hunt.",
+            "At any point during the same hunt, ID tracks from a Moose.",
+            "At any point during the same hunt, harvest a Moose.",
+            "At any point during the same hunt, harvest a Roe Deer.",
+            "At any point during the same hunt, harvest a Reindeer killed by any Bow or Crossbow.",
+            "At any point during the same hunt, harvest a Brown Bear."
+          ],
+        },
+        {
+          missionID: "r6-10",
+          name: "Final Sweep",
+          earnings: "3000",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w42"],
+              text: ".357 Revolver"
+            }
+          ],
+          hint: {
+            text: "Note that these objectives do not need to be done in one hunt",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/9/95/Hemmeldal_mission_10.png",
+            link: ""
+          },
+          goals: [
+            "Start at Drängstorp Lodge in Hemmeldal.",
+            "Then arrive at Tower 1 (x 8713, y -3776).",
+            "Then arrive at Tower 2 (x 7780, y -4207).",
+            "Then arrive at Orm's Sten (x 7048, y -3455).",
+            "Then arrive at Grimulfr's Sten.",
+            "Then arrive at Tower 3 (x 7840, y -5589).",
+            "Then arrive at Hemmeldal Stenar.",
+            "At any point while in Hemmeldal, harvest a Red Fox killed with .357 Nosler Sporting Handgun Ammunition.",
+            "At any point while in Hemmeldal, harvest a Roe Deer.",
+            "At any point while in Hemmeldal, harvest a Brown Bear.",
+            "At any point while in Hemmeldal, harvest a Reindeer.",
+            "At any point while in Hemmeldal, harvest a Moose."
+          ],
+        },
+      ],
+    },
+    {
+      id: "r7",
+      name: "Rougarou Bayou Missions",
+      displayName: "Rougarou Bayou Travel",
+      animalID: "r7",
+      filterArray: ["r7"], // Reservati na kojim se nalazi
+      missionPackValue: "10.700gm$",
+      imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/c/c9/Rougarou_Icon.png",
+      bgURL: "https://i.postimg.cc/rpT72FbG/69febbf3-bfcf-42ad-a662-dbc57c0f678d.jpg",
+      missionsList: [
+        {
+          missionID: "r7-1",
+          name: "Places To Remember",
+          earnings: "100",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false, // da li je zavrsena misija
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/6/61/RB_mission_1.png",
+            link: ""
+          },
+          goals: [
+            "Start at Whispering Woods Lodge.",
+            "Then arrive at Fort Stillwater in the same hunt.",
+            "Then arrive at The Solitary End (x -3900, y 10245) in the same hunt.",
+            "At any point during the same hunt, ID tracks from a Black Bear.",
+            "At any point during the same hunt, ID droppings from a Feral Hog.",
+            "At any point during the same hunt, spot a Mallard."
+          ],
+        },
+        {
+          missionID: "r7-2",
+          name: "Ellas Heart",
+          earnings: "200",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/d/db/RB_mission_2.png",
+            link: ""
+          },
+          goals: [
+            "Start at Whispering Woods Lodge.",
+            "Then arrive at Ella's Heart (x -1767, y 8665) in the same hunt.",
+            "At any point during the same hunt, ID tracks from a Black Bear.",
+            "At any point during the same hunt, ID droppings from a Black Bear.",
+            "At any point during the same hunt, spot a Black Bear.",
+            "At any point during the same hunt, ID tracks from a Whitetail Deer.",
+            "At any point during the same hunt, ID another set of tracks from a Whitetail Deer."
+          ],
+        },
+        {
+          missionID: "r7-3",
+          name: "Sprouts Of Life",
+          earnings: "300",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/f/f5/RB_mission_3.png",
+            link: ""
+          },
+          goals: [
+            "Start at L'île du Canard Noir.",
+            "Then arrive at Fort Stillwater Watchtower (x -3797, y 8754) in the same hunt.",
+            "At any point during the same hunt, spot a Mallard.",
+            "At any point during the same hunt, harvest a Mallard that was shot while airborne.",
+            "At any point during the same hunt, harvest a Mallard that was shot while swimming."
+          ],
+        },
+        {
+          missionID: "r7-4",
+          name: "E.L. <3 E.R.",
+          earnings: "500",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/6/64/RB_mission_4.png",
+            link: ""
+          },
+          goals: [
+            "Start at L'île du Canard Noir.",
+            "Then arrive at the end of Riverhead Landing dock in the same hunt.",
+            "At any point during the same hunt, ID tracks from a Black Bear.",
+            "At any point during the same hunt, ID another set of tracks from a Black Bear.",
+            "At any point during the same hunt, ID droppings from a Black Bear.",
+            "At any point during the same hunt, spot a Black Bear.",
+            "At any point during the same hunt, harvest a Black Bear."
+          ],
+        },
+        {
+          missionID: "r7-5",
+          name: "Protecting The Heart",
+          earnings: "700",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/3/37/RB_mission_5.png",
+            link: ""
+          },
+          goals: [
+            "Start at Whispering Woods Lodge.",
+            "Then arrive in the vicinity of Ella's Heart (x -1767, y 8665).",
+            "At any point while in Rougarou Bayou, harvest a Feral Hog close to Ella's Heart.",
+            "At any point while in Rougarou Bayou, harvest a second Feral Hog close to Ella's Heart.",
+            "At any point while in Rougarou Bayou, harvest a third Feral Hog close to Ella's Heart."
+          ],
+        },
+        {
+          missionID: "r7-6",
+          name: "Mallard Date",
+          earnings: "1000",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/5/50/RB_mission_6.png",
+            link: ""
+          },
+          goals: [
+            "Start at Whispering Woods Lodge.",
+            "Then arrive at the blue boat in Laurent's Rest (x -2717, y 9396) in the same hunt.",
+            "At any point during the same hunt, ID an audio clue from a Mallard.",
+            "At any point during the same hunt, spot a Mallard.",
+            "At any point during the same hunt, spot another Mallard.",
+            "At any point during the same hunt, harvest a Mallard that was shot while airborne.",
+            "At any point during the same hunt, harvest another Mallard that was shot while airborne."
+          ],
+        },
+        {
+          missionID: "r7-7",
+          name: "Hunting Runs Number 1",
+          earnings: "1300",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/8/8d/RB_mission_7.png",
+            link: ""
+          },
+          goals: [
+            "Start at L'île du Canard Noir.",
+            "Then arrive at One-armed Thaddeus' Place in the same hunt.",
+            "Then arrive at Fort Stillwater in the same hunt.",
+            "Then arrive at Solitary End (x -3900, y 10245) in the same hunt.",
+            "At any point during the same hunt, ID tracks from a Feral Hog.",
+            "At any point during the same hunt, ID another set of tracks from a Feral Hog.",
+            "At any point during the same hunt, ID droppings from a Feral Hog.",
+            "At any point during the same hunt, ID an audio clue from a Feral Hog.",
+            "At any point during the same hunt, spot a Feral Hog.",
+            "At any point during the same hunt, spot another Feral Hog.",
+            "At any point during the same hunt, harvest a Feral Hog.",
+            "At any point during the same hunt, harvest a second Feral Hog.",
+            "At any point during the same hunt, harvest a third Feral Hog."
+          ],
+        },
+        {
+          missionID: "r7-8",
+          name: "Hunting Runs Number 2",
+          earnings: "1600",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w29"],
+              text: ".303 British Bolt Action Rifle"
+            },
+            {
+              weapons: ["w18"],
+              text: ".30-30 Lever Action Rifle"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/5/54/RB_mission_8.png",
+            link: ""
+          },
+          goals: [
+            "Start at L'île du Canard Noir.",
+            "Then arrive at One-armed Thaddeus' Place in the same hunt.",
+            "Then arrive at Ella's Heart (x -1767, y 8665) in the same hunt.",
+            "Then arrive at Knobby Point (x -399, y 8320) in the same hunt.",
+            "At any point during the same hunt, ID an audio clue from a Whitetail Deer.",
+            "At any point during the same hunt, spot a male Whitetail Deer.",
+            "At any point during the same hunt, spot a female Whitetail Deer.",
+            "At any point during the same hunt, harvest a Whitetail Deer buck using a .303 British Bolt Action Rifle.",
+            "At any point during the same hunt, harvest a female Whitetail Deer shot with a .30-30 Lever Action Rifle."
+          ],
+        },
+        {
+          missionID: "r7-9",
+          name: "Hunting Runs Number 3",
+          earnings: "2000",
+          singleplayer: false,
           sameHunt: true,
           selected: false,
           passable: true,
@@ -11392,93 +12693,3957 @@ export const useStoreMissions = defineStore('missions', () => {
           ],
           hint: {
             text: "",
-            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/b/b6/Sc_mission_8.png",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/b/bb/RB_mission_9.png",
             link: ""
           },
           goals: [
-            "Start from Highland Lodge in Settler Creeks.",
-            "Then arrive at Tower 1 (x -8130, y 4344) in the same hunt.",
-            "Then arrive at Tower 11 (x -8275, y 4072) in the same hunt.",
-            "Then arrive at Tower 8 (x -7085, y 3680) in the same hunt.",
-            "Then arrive at Tower 6 (x -6494, y 4094) in the same hunt.",
-            "At any point during the same hunt, ID tracks from a Feral Hog.",
-            "At any point during the same hunt, ID an audio clue from a Feral Hog.",
-            "At any point during the same hunt, ID any clue from a Black Bear.",
-            "At any point during the same hunt, harvest a Black Bear killed with a .30-06 Lever Action Rifle."
+            "Start at Whispering Woods Lodge.",
+            "Then arrive at The Solitary End (x -3900, y 10245) in the same hunt.",
+            "Then arrive at Knobby Point (x -399, y 8320) in the same hunt.",
+            "Then arrive at Riverhead Landing in the same hunt.",
+            "At any point during the same hunt, harvest a Mallard that was shot while airborne.",
+            "At any point during the same hunt, harvest a second Mallard that was shot while airborne.",
+            "At any point during the same hunt, harvest a third Mallard that was shot while airborne.",
+            "At any point during the same hunt, harvest a Black Bear shot with a .30-06 Lever Action Rifle."
           ],
         },
         {
-          missionID: "r4-9",
-          name: "Preparing For The Feast",
+          missionID: "r7-10",
+          name: "Fin",
+          earnings: "3000",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w19"],
+              text: ".30-06 Lever Action Rifle"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/0/0e/RB_mission_10.png",
+            link: ""
+          },
+          goals: [
+            "Start at Drängstorp Lodge in Hemmeldal.",
+            "Then arrive at Tower 1 (x 8713, y -3776).",
+            "Then arrive at Tower 2 (x 7780, y -4207).",
+            "Then arrive at Orm's Sten (x 7048, y -3455).",
+            "Then arrive at Grimulfr's Sten.",
+            "Then arrive at Tower 3 (x 7840, y -5589).",
+            "Then arrive at Hemmeldal Stenar.",
+            "At any point while in Hemmeldal, harvest a Red Fox killed with .357 Nosler Sporting Handgun Ammunition.",
+            "At any point while in Hemmeldal, harvest a Roe Deer.",
+            "At any point while in Hemmeldal, harvest a Brown Bear.",
+            "At any point while in Hemmeldal, harvest a Reindeer.",
+            "At any point while in Hemmeldal, harvest a Moose."
+          ],
+        },
+      ],
+    },
+    {
+      id: "r8",
+      name: "Val-des-Bois Missions",
+      displayName: "Val-des-Bois Travel",
+      animalID: "r8",
+      filterArray: ["r8"], // Reservati na kojim se nalazi
+      missionPackValue: "10.700gm$",
+      imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/6/66/Val-des-bois_icon.png",
+      bgURL: "https://i.postimg.cc/PJDBkpt4/d03d6303-7514-4422-9301-8d7f6f86172a.jpg",
+      missionsList: [
+        {
+          missionID: "r8-1",
+          name: "The Evil Grin",
+          earnings: "100",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false, // da li je zavrsena misija
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/d/df/Vdb_mission_1.png",
+            link: ""
+          },
+          goals: [
+            "Start at Chalet du Mont-Bleu Lodge in Val-des-Bois.",
+            "Then arrive at the left eye of The Evil Grin (x 3798, y -1413) in the same hunt.",
+            "At any point during the same hunt, ID a clue from a Brown Bear.",
+            "At any point during the same hunt, ID a clue from a Red Fox.",
+            "At any point during the same hunt, ID a set of tracks from a Red Deer.",
+            "At any point during the same hunt, ID a clue from a Roe Deer."
+          ],
+        },
+        {
+          missionID: "r8-2",
+          name: "The Calm Pond",
+          earnings: "200",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/8/8c/Vdb_mission_2.png",
+            link: ""
+          },
+          goals: [
+            "Start at Maison du Néant Lodge in Val-des-Bois.",
+            "Then arrive at The Calm Pond (x 2559, y -848) in the same hunt.",
+            "Then arrive at L'ancien Château in the same hunt.",
+            "At any point during the same hunt, ID a clue from a Red Deer.",
+            "At any point during the same hunt, ID a clue from a Red Fox.",
+            "At any point during the same hunt, ID a set of tracks from a Roe Deer."
+          ],
+        },
+        {
+          missionID: "r8-3",
+          name: "Deliver Some Bones",
+          earnings: "300",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/0/06/Vdb_mission_3.png",
+            link: ""
+          },
+          goals: [
+            "Start at Chalet du Mont-Bleu Lodge in Val-des-Bois.",
+            "Then arrive at the left eye of The Evil Grin (x 3798, y -1413) in the same hunt.",
+            "At any point during the same hunt, ID a clue from a Red Deer.",
+            "At any point during the same hunt, harvest a Red Deer.",
+            "At any point during the same hunt, harvest a Red Fox.",
+            "At any point during the same hunt, harvest a Roe Deer."
+          ],
+        },
+        {
+          missionID: "r8-4",
+          name: "Pelts All Around",
+          earnings: "500",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/3/3c/Vdb_mission_4.png",
+            link: ""
+          },
+          goals: [
+            "Start at Maison du Néant Lodge in Val-des-Bois.",
+            "Then arrive at The Calm Pond (x 2559, y -848) in the same hunt.",
+            "Then arrive at L'ancien Château in the same hunt.",
+            "Then arrive at the left eye of The Evil Grin (x 3798, y -1413) in the same hunt.",
+            "At any point during the same hunt, ID a set of tracks from a Red Fox.",
+            "At any point during the same hunt, harvest a Red Fox.",
+            "At any point during the same hunt, harvest another Red Fox.",
+            "At any point during the same hunt, harvest a Brown Bear."
+          ],
+        },
+        {
+          missionID: "r8-5",
+          name: "Horn Mug",
+          earnings: "700",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/e/ee/Vdb_mission_5.png",
+            link: ""
+          },
+          goals: [
+            "Start at Chalet du Mont-Bleu Lodge in Val-des-Bois.",
+            "Then arrive at L'ancien Château in the same hunt.",
+            "Then arrive at La Chapelle du Saint Perdu in the same hunt.",
+            "At any point during the same hunt, harvest a Red Fox.",
+            "At any point during the same hunt, ID an audio clue from an Alpine Ibex.",
+            "At any point during the same hunt, harvest a male Alpine Ibex."
+          ],
+        },
+        {
+          missionID: "r8-6",
+          name: "Stuffed Animals",
+          earnings: "1000",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w51", "w52", "w53", "w54", "w55", "w56", "w57", "w58"],
+              text: "Use any bow"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/8/86/Vdb_mission_6.png",
+            link: ""
+          },
+          goals: [
+            "Start at Maison du Néant Lodge in Val-des-Bois.",
+            "Then arrive at L'ancien Château in the same hunt.",
+            "Then arrive at The Devil's Teapot (x 3096, y -2203) in the same hunt.",
+            "At any point during the same hunt, ID a clue from a Brown Bear.",
+            "At any point during the same hunt, harvest a Brown Bear killed with any bow.",
+            "At any point during the same hunt, harvest an Alpine Ibex."
+          ],
+        },
+        {
+          missionID: "r8-7",
+          name: "More Stuffed Animals",
+          earnings: "1300",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w51", "w52", "w53", "w54", "w55", "w56", "w57", "w58"],
+              text: "Use any bow"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/b/b2/Vdb_mission_7.png",
+            link: ""
+          },
+          goals: [
+            "Start at Maison du Néant Lodge in Val-des-Bois.",
+            "Then arrive at L'ancien Château in the same hunt.",
+            "Then arrive at La Chapelle du Saint Perdu in the same hunt.",
+            "At any point during the same hunt, harvest a Roe Deer with a score of at least 160.",
+            "At any point during the same hunt, harvest an Alpine Ibex killed with any Bow"
+          ],
+        },
+        {
+          missionID: "r8-8",
+          name: "Freak Of Nature",
+          earnings: "1600",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/7/72/Vdb_mission_8.png",
+            link: ""
+          },
+          goals: [
+            "Start at Maison du Néant Lodge in Val-des-Bois.",
+            "Then arrive at L'ancien Château in the same hunt.",
+            "Then arrive at La Chapelle du Saint Perdu in the same hunt.",
+            "At any point during the same hunt, harvest a Red Deer killed with any Shotgun.",
+            "At any point during the same hunt, harvest a Roe Deer killed with any Shotgun.",
+            "At any point during the same hunt, harvest an Alpine Ibex killed with any Shotgun.",
+            "At any point during the same hunt, harvest another Alpine Ibex killed with any Shotgun."
+          ],
+        },
+        {
+          missionID: "r8-9",
+          name: "Pleased At Last",
+          earnings: "2000",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/c/c5/Vdb_mission_9.png",
+            link: ""
+          },
+          goals: [
+            "Start at Chalet du Mont-Bleu Lodge in Val-des-Bois.",
+            "Then arrive at the left eye of The Evil Grin (x 3798, y -1413) in the same hunt.",
+            "Then arrive at L'ancien Château in the same hunt.",
+            "Then arrive at The Calm Pond (x 2559, y -848) in the same hunt.",
+            "At any point during the same hunt, ID an audio clue from an Alpine Ibex.",
+            "At any point during the same hunt, ID a set of tracks from a Brown Bear.",
+            "At any point during the same hunt, ID a clue from a Red Fox.",
+            "At any point during the same hunt, spot a Red Fox.",
+            "At any point during the same hunt, ID droppings from a Roe Deer.",
+            "At any point during the same hunt, ID a clue from a Red Deer."
+          ],
+        },
+        {
+          missionID: "r8-10",
+          name: "Mutant",
+          earnings: "3000",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w13", "w22"],
+              text: "7mm Magnum Bullpup Rifle or 7mm Magnum Break Action Rifle"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/b/bb/Vdb_mission_10.png",
+            link: ""
+          },
+          goals: [
+            "Start at Maison du Néant Lodge in Val-des-Bois.",
+            "Then arrive at The Calm Pond (x 2559, y -848).",
+            "Then arrive at L'ancien Château.",
+            "Then arrive at the left eye of The Evil Grin (x 3798, y -1413).",
+            "Then arrive at La Chapelle du Saint Perdu.",
+            "At any point while in Val-des-Bois, harvest a Red Deer killed with either 7mm Magnum Bullpup Rifle or the 7mm Magnum Break Action Rifle.",
+            "At any point while in Val-des-Bois, harvest a Red Fox.",
+            "At any point while in Val-des-Bois, harvest a Roe Deer killed with either 7mm Magnum Bullpup Rifle or the 7mm Magnum Break Action Rifle.",
+            "At any point while in Val-des-Bois, harvest a Brown Bear killed with either 7mm Magnum Bullpup Rifle or the 7mm Magnum Break Action Rifle.",
+            "At any point while in Val-des-Bois, harvest an Alpine Ibex killed with either 7mm Magnum Bullpup Rifle or the 7mm Magnum Break Action Rifle.",
+            "At any point while in Val-des-Bois, harvest an European Rabbit."
+          ],
+        },
+      ],
+    },
+    {
+      id: "r9",
+      name: "Bushrangers Run Missions",
+      displayName: "Bushrangers Run Travel",
+      animalID: "r9",
+      filterArray: ["r9"], // Reservati na kojim se nalazi
+      missionPackValue: "10.000gm$",
+      imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/2/22/Bushrangers_run_icon.png",
+      bgURL: "https://i.postimg.cc/D0mwQcPz/1f1b5a95-dc47-4c46-a519-adf8f610b606.jpg",
+      missionsList: [
+        {
+          missionID: "r9-1",
+          name: "A Quick Wander",
+          earnings: "100",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false, // da li je zavrsena misija
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/e/e8/BRR_Mission_1.png",
+            link: ""
+          },
+          goals: [
+            "Start at Copper Hills Lodge.",
+            "Then arrive at the Desert's Eye (x: 2137, y: 10999) in the same hunt.",
+            "Then arrive at Bay View (x: 1491, y: 11242) in the same hunt.",
+            "ID any clue (footprints, droppings, or audio) from a European Rabbit at any point in the same hunt.",
+            "ID any clue (footprints, droppings, or audio) from a Red Fox at any point in the same hunt.",
+            "ID any clue (footprints, droppings, or audio) from a Feral Goat at any point in the same hunt."
+          ],
+        },
+        {
+          missionID: "r9-2",
+          name: "Take a Stroll",
+          earnings: "200",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/b/b5/BRR_Mission_2.png",
+            link: ""
+          },
+          goals: [
+            "Start at Walkabout Creek.",
+            "Then arrive at Gibber Pass (x: 2906, y: 11577) in the same hunt.",
+            "Then arrive at The Dust Farm (x: 2778, y: 12269) in the same hunt.",
+            "Then arrive at Ghost Pond (x: 3877, y: 11249) in the same hunt.",
+            "ID footprints from a Feral Hog at any point in the same hunt.",
+            "ID an audio call from a Red Kangaroo at any point in the same hunt.",
+            "ID droppings from a Feral Goat at any point in the same hunt.",
+            "ID footprints from an Axis Deer at any point in the same hunt."
+          ],
+        },
+        {
+          missionID: "r9-3",
+          name: "Enjoy the Beach",
+          earnings: "300",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/a/a8/BRR_Mission_3.png",
+            link: ""
+          },
+          goals: [
+            "Start at Copper Hills Lodge.",
+            "Then arrive at Mimis' Beach (x: 1820, y: 10236) in the same hunt.",
+            "Then arrive at Open Country (x: 2064, y: 9556) in the same hunt.",
+            "Then arrive at Yabby Bay (x: 2250, y: 8984) in the same hunt.",
+            "Spot a Red Fox at any point in the same hunt.",
+            "Spot a European Rabbit at any point in the same hunt.",
+            "Spot a Feral Goat at any point in the same hunt.",
+            "Harvest a Feral Goat at any point in the same hunt."
+          ],
+        },
+        {
+          missionID: "r9-4",
+          name: "Boots on the Ground",
+          earnings: "400",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/b/be/BRR_Mission_4.png",
+            link: ""
+          },
+          goals: [
+            "Start at Copper Hills Lodge.",
+            "Then arrive at Copper Ridge (x: 2223, y: 11601).",
+            "Then arrive at The Dust Farm (x: 2778, y: 12269).",
+            "Then arrive at Gibber Pass (x: 2906, y: 11577).",
+            "Then arrive at Ghost Pond (x: 3877, y: 11249).",
+            "Spot a Feral Hog.",
+            "Spot a Red Kangaroo.",
+            "Spot an Axis Deer.",
+            "Harvest a Feral Hog.",
+            "Harvest a Red Kangaroo.",
+            "Harvest an Axis Deer."
+          ],
+        },
+        {
+          missionID: "r9-5",
+          name: "Lay of the Land",
+          earnings: "600",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/6/6e/BRR_Mission_5.png",
+            link: ""
+          },
+          goals: [
+            "Start at Walkabout Creek.",
+            "Then arrive at Ghost Pond (x: 3877, y: 11249).",
+            "Then arrive at Kumanjayi's Butte (x: 3137, y: 10442).",
+            "Then arrive at Lonely Billabong (x: 2868, y: 10241).",
+            "Then arrive at Open Country (x: 2064, y: 9556).",
+            "Harvest a Feral Hog.",
+            "Harvest a male Axis Deer scoring at least 130.",
+            "Harvest a Red Kangaroo.",
+            "Harvest a Feral Goat from more than 30 meters (approx. 98 ft.)"
+          ],
+        },
+        {
+          missionID: "r9-6",
+          name: "Distribution Checks",
+          earnings: "800",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/1/10/BRR_Mission_6.png",
+            link: ""
+          },
+          goals: [
+            "Start at Copper Hills Lodge.",
+            "Then arrive at Desert's Eye (x: 2137, y: 10999).",
+            "Then arrive at Bay View (x: 1491, y: 11242).",
+            "Then arrive at Mimis' Beach (x: 1820, y: 10236).",
+            "Then arrive at Yabby Bay (x: 2250, y: 8984).",
+            "Then arrive at Open Country (x: 2064, y: 9556).",
+            "Harvest a Red Fox with buckshot.",
+            "Harvest a European Rabbit.",
+            "Harvest any Piebald Feral Hog."
+          ],
+        },
+        {
+          missionID: "r9-7",
+          name: "Full Circle",
+          earnings: "1000",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/9/91/BRR_Mission_7.png",
+            link: ""
+          },
+          goals: [
+            "Start at Copper Hills Lodge.",
+            "Then arrive at Desert's Eye (x: 2137, y: 10999).",
+            "Then arrive at Lonely Billabong (x: 2868, y: 10241).",
+            "Then arrive at Kumanjayi's Butte (x: 3137, y: 10442).",
+            "Then arrive at Ghost Pond (x: 3877, y: 11249).",
+            "Then arrive at The Dust Farm (x: 2778, y: 12269).",
+            "Then arrive at Copper Ridge (x: 2223, y: 11601).",
+            "Then arrive at Copper Hills Lodge.",
+            "Harvest a Feral Hog at less than 25 meters (approx. 82 ft.).",
+            "Harvest a Red Kangaroo using any permitted shotgun ammunition.",
+            "Harvest an Axis Deer.",
+            "Harvest a male Red Fox."
+          ],
+        },
+        {
+          missionID: "r9-8",
+          name: "Proof of Tread",
+          earnings: "1200",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w51", "w52", "w53", "w54", "w55", "w56", "w57", "w58", "w59", "w60"],
+              text: "Use any bow or crossbow"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/4/43/BRR_Mission_8.png",
+            link: ""
+          },
+          goals: [
+            "Start at Walkabout Creek.",
+            "Then arrive at Desert's Eye (x: 2137, y: 10999).",
+            "Then arrive at Bay View (x: 1491, y: 11242).",
+            "Then arrive at Copper Ridge (x: 2223, y: 11601).",
+            "Then arrive at Gibber Pass (x: 2906, y: 11577).",
+            "Then arrive at Lonely Billabong (x: 2868, y: 10241).",
+            "Then arrive at Kumanjayi's Butte (x: 3137, y: 10442).",
+            "Harvest a male Feral Hog with any bow or crossbow.",
+            "Harvest a male Red Kangaroo with any bow or crossbow.",
+            "Harvest a male Axis Deer with any bow or crossbow."
+          ],
+        },
+        {
+          missionID: "r9-9",
+          name: "Medium-Rare",
           earnings: "1800",
-          singleplayer: true,
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/4/41/BRR_Mission_9.png",
+            link: ""
+          },
+          goals: [
+            "Start at Copper Hills Lodge.",
+            "Then arrive at Bay View (x: 1491, y: 11242).",
+            "Then arrive at Desert's Eye (x: 2137, y: 10999).",
+            "Then arrive at Lonely Billabong (x: 2868, y: 10241).",
+            "Harvest a male Red Fox with a color other than Common.",
+            "Harvest a male European Rabbit with birdshot.",
+            "Harvest a male Feral Goat with a color other than Common."
+          ],
+        },
+        {
+          missionID: "r9-10",
+          name: "Walkabout",
+          earnings: "3600",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w46", "w42", "w43", "w47"],
+              text: ".308 Handgun or .357 Revolver or .44 Revolver or 10mm Semi-Automatic Pistol"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/1/1a/BRR_Mission_10.png",
+            link: ""
+          },
+          goals: [
+            "Start at Copper Hills Lodge.",
+            "Then arrive at Desert's Eye (x: 2137, y: 10999).",
+            "Then arrive at Mimis' Beach (x: 1820, y: 10236).",
+            "Then arrive at Yabby Bay (x: 2250, y: 8984).",
+            "Then arrive at Lonely Billabong (x: 2868, y: 10241).",
+            "Then arrive at Ghost Pond (x: 3877, y: 11249).",
+            "Then arrive at The Dust Farm (x: 2778, y: 12269).",
+            "Then arrive at Copper Ridge (x: 2223, y: 11601).",
+            "Then arrive at Gibber Pass (x: 2906, y: 11577).",
+            "Then arrive at Walkabout Creek.",
+            "Harvest a female Red Fox with any .243 rifle.",
+            "Harvest a female European Rabbit with birdshot.",
+            "Harvest a female Feral Goat scoring more than 100.",
+            "Harvest a female Feral Hog with a slug.",
+            "Harvest a female Red Kangaroo with a shot to the heart and/or lungs.",
+            "Harvest a female Axis Deer with any ethical handgun."
+          ],
+        },
+      ],
+    },
+    {
+      id: "r10",
+      name: "Whiterime Ridge Missions",
+      displayName: "Whiterime Ridge Travel",
+      animalID: "r10",
+      filterArray: ["r10"], // Reservati na kojim se nalazi
+      missionPackValue: "10.000gm$",
+      imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/5/55/WR_icon.png",
+      bgURL: "https://i.postimg.cc/SsCrSWMJ/fa6113a6-3064-45df-89c9-a14cfb9c251d.jpg",
+      missionsList: [
+        {
+          missionID: "r10-1",
+          name: "Hot as ice",
+          earnings: "100",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false, // da li je zavrsena misija
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/a/a8/Wrr_mission_1.png",
+            link: ""
+          },
+          goals: [
+            "Start at Afterland Lodge in Whiterime Ridge.",
+            "Then arrive at Tatanka Hot Springs (x: -4047, y: -8788) in the same hunt.",
+            "Then visit the freezing sea waters of Bison Horns Bay (x -3325, y -8922) in the same hunt.",
+            "At any point during the same hunt, ID any clue (footprints, droppings, or audio) from a Bison.",
+            "At any point during the same hunt, ID any clue (footprints, droppings, or audio) from a Moose."
+          ],
+        },
+        {
+          missionID: "r10-2",
+          name: "White Dreams",
+          earnings: "200",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/8/89/Wrr_mission_2.png",
+            link: ""
+          },
+          goals: [
+            "Start at Danforth's Refuge in Whiterime Ridge.",
+            "Then arrive at Raven's Pass (x -5288, y -12120) in the same hunt.",
+            "Then arrive at Frigid Rapids (x -4185, y -11660) in the same hunt.",
+            "Then arrive at Snaketongue Fall (x -4390, y -11468) in the same hunt.",
+            "At any point during the same hunt, ID an audio clue from an Arctic Fox.",
+            "At any point during the same hunt, ID footprints from an Arctic Fox.",
+            "At any point during the same hunt, spot an Arctic Fox."
+          ],
+        },
+        {
+          missionID: "r10-3",
+          name: "Search the Frost",
+          earnings: "300",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/d/d3/Wrr_mission_3.png",
+            link: ""
+          },
+          goals: [
+            "Start at Danforth's Refuge in Whiterime Ridge.",
+            "Then arrive at Kosatka Harbour (x -5233, y 12676) in the same hunt.",
+            "Then arrive at Kaner Point (x -2436, y -12426) in the same hunt.",
+            "At any point during the same hunt, ID footprints from a Polar Bear.",
+            "At any point during the same hunt, ID droppings from a Polar Bear.",
+            "At any point during the same hunt, harvest an Arctic Fox."
+          ],
+        },
+        {
+          missionID: "r10-4",
+          name: "Blessings of the Land",
+          earnings: "400",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/7/7b/Wrr_mission_4.png",
+            link: ""
+          },
+          goals: [
+            "Start at Danforth's Refuge in Whiterime Ridge.",
+            "Then arrive at Windy Hill (-6464, y -10096) in the same hunt.",
+            "At any point during the same hunt, ID footprints or droppings from a Snowshoe Hare.",
+            "At any point during the same hunt, ID footprints from a Moose.",
+            "At any point during the same hunt, ID droppings from a Moose.",
+            "At any point during the same hunt, spot a Moose.",
+            "At any point during the same hunt, ID footprints from a Bison.",
+            "At any point during the same hunt, ID droppings from a Bison.",
+            "At any point during the same hunt, spot a Bison."
+          ],
+        },
+        {
+          missionID: "r10-5",
+          name: "Caution in the Snow",
+          earnings: "600",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/6/64/Wrr_mission_5.png",
+            link: ""
+          },
+          goals: [
+            "Start at Afterland Lodge in Whiterime Ridge.",
+            "Then arrive at the Frozen Lake (x -4936, y -9320) in the same hunt.",
+            "Then arrive at the Chute (x -4633, y -11152) in the same hunt.",
+            "Then arrive at Snaketongue Fall (x -4390, y -11468) in the same hunt.",
+            "Then arrive at Frigid Rapids (x -4185, y -11660) in the same hunt.",
+            "At any point during the same hunt, ID footprints from a Dall Sheep.",
+            "At any point during the same hunt, ID droppings from a Dall Sheep.",
+            "At any point during the same hunt, ID footprints from a Sitka Deer.",
+            "At any point during the same hunt, ID droppings from a Sitka Deer.",
+            "At any point during the same hunt, spot a Sitka Deer.",
+            "At any point during the same hunt, harvest a Sitka Deer with one shot."
+          ],
+        },
+        {
+          missionID: "r10-6",
+          name: "Anger of the Sky",
+          earnings: "800",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/3/3d/Wrr_mission_6.png",
+            link: ""
+          },
+          goals: [
+            "Start at Afterland Lodge in Whiterime Ridge.",
+            "Then arrive at Tatanka Hot Springs (x: -4047, y: -8788).",
+            "Then arrive at Bison Horns Bay (x -3325, y -8922).",
+            "Then arrive at Sedna's Bay (x -2568, y -10784).",
+            "Then arrive at Frigid Rapids (x -4185, y -11660).",
+            "Spot a Snowshoe Hare.",
+            "Harvest a Snowshoe Hare weighing at least 1,3 kg (approx. 2,87 lbs).",
+            "Spot a Dall Sheep.",
+            "Harvest a Dall Sheep scoring at least 150 using any .243 rifle.",
+            "Harvest a male Moose.",
+            "Harvest a Bison.",
+            "Harvest a Polar Bear scoring at least 25."
+          ],
+        },
+        {
+          missionID: "r10-7",
+          name: "Listen to Prey, Hunt the Predator",
+          earnings: "1000",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/f/f7/Wrr_mission_7.png",
+            link: ""
+          },
+          goals: [
+            "Start at Afterland Lodge in Whiterime Ridge.",
+            "Then arrive at Tatanka Hot Springs (x: -4047, y: -8788).",
+            "Then arrive at Frozen Lake (x -4936, y -9320).",
+            "Then arrive at the Chute (x -4633, y -11466).",
+            "Then arrive at Snaketongue Fall (x -4390, y -11468).",
+            "Then arrive at Kaner Point (x -2436, y -12426).",
+            "ID an audio clue from a Moose.",
+            "ID an audio clue from a Bison.",
+            "ID an audio clue from a Sitka Deer.",
+            "ID an audio clue from a Dall Sheep.",
+            "ID any clue (footprints, droppings, or audio) from a Polar Bear.",
+            "Harvest a Polar Bear with a single shot.",
+            "ID any clue (footprints, droppings, or audio) from an Arctic Fox.",
+            "Harvest an Arctic Fox using buckshot."
+          ],
+        },
+        {
+          missionID: "r10-8",
+          name: "Small Prey",
+          earnings: "1200",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/e/e8/Wrr_mission_8.png",
+            link: ""
+          },
+          goals: [
+            "Start at Danforth's Refuge in Whiterime Ridge.",
+            "Then arrive at Windy Hill (-6464, y -10096).",
+            "Then arrive at Snaketongue Fall (x -4390, y -11468).",
+            "ID any clue (footprints, droppings, or audio) from a male Bison.",
+            "ID any clue (footprints, droppings, or audio) from a Moose.",
+            "Harvest a Snowshoe Hare.",
+            "Harvest a male Sitka Deer with a score of 50 or more.",
+            "Harvest a male Dall Sheep."
+          ],
+        },
+        {
+          missionID: "r10-9",
+          name: "Keep the Balance",
+          earnings: "1800",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w51", "w52", "w53", "w54", "w55", "w56", "w57", "w58", "w59", "w60"],
+              text: "Use any bow or crossbow"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/7/7a/Wrr_mission_9.png",
+            link: ""
+          },
+          goals: [
+            "Start at Afterland Lodge in Whiterime Ridge.",
+            "Then arrive at Frozen Lake (x -4936, y -9320).",
+            "Then arrive at Windy Hill (x -6464, y -10096).",
+            "Then arrive at Kosatka Harbor (x -5233, y -12676).",
+            "Harvest a charging Moose with any bow or crossbow.",
+            "Harvest a charging Bison with any bow or crossbow.",
+            "Harvest a charging Polar Bear with any bow or crossbow."
+          ],
+        },
+        {
+          missionID: "r10-10",
+          name: "Show your Mastery",
+          earnings: "3600",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w51", "w52", "w53", "w54", "w55", "w56", "w57", "w58"],
+              text: "Use any bow"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/c/c4/Wrr_mission_10.png",
+            link: ""
+          },
+          goals: [
+            "Start at Afterland Lodge in Whiterime Ridge.",
+            "Then arrive at Bison Horns Bay (x -3325, y -8922).",
+            "Then arrive at Sedna's Bay (x -2568, y -10784).",
+            "Then arrive at Snaketongue Fall (x -4390, y -11468).",
+            "Then arrive at Raven's Pass (x -5288, y -12120).",
+            "Then arrive at Danforth's Refuge.",
+            "Harvest a Moose with any bow.",
+            "Harvest a Bison with any bow.",
+            "Harvest a Polar Bear with any bow.",
+            "Harvest a Snowshoe Hare with any bow.",
+            "Harvest a Sitka Deer with any bow.",
+            "Harvest a Dall Sheep with any bow.",
+            "Harvest an Arctic Fox with any bow."
+          ],
+        },
+      ],
+    },
+    {
+      id: "r11",
+      name: "Timbergold Trails Missions",
+      displayName: "Timbergold Trails Travel",
+      animalID: "r11",
+      filterArray: ["r11"], // Reservati na kojim se nalazi
+      missionPackValue: "10.000gm$",
+      imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/c/ce/TT_icon.png",
+      bgURL: "https://i.postimg.cc/6pvRbSnN/v5B8MaFi.jpg",
+      missionsList: [
+        {
+          missionID: "r11-1",
+          name: "Gold of the past",
+          earnings: "100",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false, // da li je zavrsena misija
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/9/9a/Tt_mission_1.png",
+            link: ""
+          },
+          goals: [
+            "Start at Goldhorn Pass in Timbergold Trails.",
+            "Then arrive at The Dredge (x: -6807, y: 1380) in the same hunt.",
+            "Then arrive at The Flats (x: -6239, y: 1753) in the same hunt.",
+            "At any point during the same hunt, ID any clue (footprints, droppings, or audio) from a Rocky Mountain Elk.",
+            "At any point during the same hunt, spot a Rocky Mountain Elk.",
+            "At any point during the same hunt, ID any clue (footprints, droppings, or audio) from a Grey Wolf.",
+            "At any point during the same hunt, spot a Grey Wolf."
+          ],
+        },
+        {
+          missionID: "r11-2",
+          name: "Old Roots",
+          earnings: "200",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/8/8f/Tt_mission_2.png",
+            link: ""
+          },
+          goals: [
+            "Start at Everfall Lodge in Timbergold Trails.",
+            "Then arrive at Dead Rose (x: -4128, y: -150) in the same hunt.",
+            "Then arrive at Firewatch Tower (x: -4977, y: 3) in the same hunt.",
+            "Then arrive at Owl's Perch (x: -4174, y: -502) in the same hunt.",
+            "At any point during the same hunt, ID a call from a Rocky Mountain Elk.",
+            "At any point during the same hunt, spot a Rocky Mountain Elk.",
+            "At any point during the same hunt, ID footprints from a Grizzly Bear.",
+            "At any point during the same hunt, spot a Grizzly Bear."
+          ],
+        },
+        {
+          missionID: "r11-3",
+          name: "Dangerous Suspicion",
+          earnings: "300",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/4/44/Tt_mission_3.png",
+            link: ""
+          },
+          goals: [
+            "Begin at Everfall Lodge in Timbergold Trails.",
+            "Then arrive at Firewatch Tower (x: -4977, y: 3) in the same hunt.",
+            "Then arrive at Riverpine Cabin (x: -4583, y: 1060) in the same hunt.",
+            "At any point during the same hunt, ID any clue (footprints, droppings, or audio) from a Grizzly Bear.",
+            "At any point during the same hunt, spot a Grizzly Bear.",
+            "At any point during the same hunt, harvest a Grizzly Bear with one shot."
+          ],
+        },
+        {
+          missionID: "r11-4",
+          name: "Mountain Trail",
+          earnings: "400",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/8/8b/Tt_mission_4.png",
+            link: ""
+          },
+          goals: [
+            "Start at Goldhorn Pass in Timbergold Trails.",
+            "Then arrive at Brimstone (x: -7140, y: -156) in the same hunt.",
+            "Then arrive at the Brimstone Tunnel entrance located at (x-7339, y: 39) in the same hunt. Go through the tunnel (default key: E).",
+            "Then arrive at Porcupine Ridge (x -6019, y -1152) in the same hunt.",
+            "At any point during the same hunt, ID any clue (footprints, droppings, or audio) from a Bighorn Sheep.",
+            "At any point during the same hunt, spot a Bighorn Sheep.",
+            "At any point during the same hunt, ID any clue (footprints, droppings, or audio) from a White-tailed Ptarmigan.",
+            "At any point during the same hunt, harvest an airborne White-tailed Ptarmigan.",
+            "At any point during the same hunt, harvest another airborne White-tailed Ptarmigan."
+          ],
+        },
+        {
+          missionID: "r11-5",
+          name: "Another Circumstance",
+          earnings: "600",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w51", "w52", "w53", "w54", "w55", "w56", "w57", "w58", "w59", "w60"],
+              text: "Use any bow or crossbow"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/2/2f/Tt_mission_5.png",
+            link: ""
+          },
+          goals: [
+            "Begin at Everfall Lodge in Timbergold Trails.",
+            "Then arrive at Fred's Last Stand (x: -5166, y: 940) in the same hunt.",
+            "Then arrive at The Flats (x: -6239, y: 1753) in the same hunt.",
+            "At any point during the same hunt, ID any clue (footprints, droppings, or audio) from a Rocky Mountain Elk.",
+            "At any point during the same hunt, harvest a male Rocky Mountain Elk using any Bow or Crossbow.",
+            "At any point during the same hunt, ID footprints from a Grey Wolf.",
+            "At any time during the same hunt, ID droppings from a Grey Wolf.",
+            "At any point during the same hunt, ID a call from a Grey Wolf.",
+            "At any point during the same hunt, spot a Grey Wolf."
+          ],
+        },
+        {
+          missionID: "r11-6",
+          name: "In Wolf's Clothing",
+          earnings: "800",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/c/cf/Tt_mission_6.png",
+            link: ""
+          },
+          goals: [
+            "Start at Goldhorn Pass in Timbergold Trails.",
+            "Then arrive at The Flats (x: -6239, y: 1753) in the same hunt.",
+            "Then arrive at Fred's Last Stand (x: -5166, y: 940) in the same hunt.",
+            "Then arrive at Firewatch Tower (x: -4977, y: 3) in the same hunt.",
+            "At any point during the same hunt, spot a Grey Wolf.",
+            "At any point during the same hunt, harvest a male Grey Wolf.",
+            "At any point during the same hunt, harvest a Mule Deer with any ethical rifle except a Muzzleloader.",
+            "At any point during the same hunt, harvest another Mule Deer with any ethical rifle except a Muzzleloader."
+          ],
+        },
+        {
+          missionID: "r11-7",
+          name: "The Increasing Problem",
+          earnings: "1000",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/7/75/Tt_mission_7.png",
+            link: ""
+          },
+          goals: [
+            "Begin at Everfall Lodge in Timbergold Trails.",
+            "Then arrive at Howling Heights (x: -2288, y: 1112) in the same hunt.",
+            "Then arrive at Dusty Paws (x: -5700, y: 2116) in the same hunt.",
+            "At any point during the same hunt, ID footprints from a Grizzly Bear.",
+            "At any point during the same hunt, ID footprints or droppings from a Puma.",
+            "At any point during the same hunt, harvest a Mule Deer.",
+            "At any point during the same hunt, harvest another Mule Deer.",
+            "At any point during the same hunt, harvest a Rocky Mountain Elk.",
+            "At any point during the same hunt, harvest another Rocky Mountain Elk."
+          ],
+        },
+        {
+          missionID: "r11-8",
+          name: "Double Threat",
+          earnings: "1200",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w23"],
+              text: ".30 R O/U Break Action Rifle"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/2/23/Tt_mission_8.png",
+            link: ""
+          },
+          goals: [
+            "Begin at Everfall Lodge in Timbergold Trails.",
+            "Then arrive at the Eastern Tunnel entrance located at (x: -3083, y: -572) in the same hunt. Go through the tunnel (default key: E).",
+            "Then arrive at Ol 'Reynold Lost Nugget (x -5404, y -2010) in the same hunt.",
+            "Then arrive at the Ol' Reynold's Tunnel entrance located at (x: -5406, y: -1613) in the same hunt. Go through the tunnel (default key: E).",
+            "Then arrive at Porcupine Ridge (x -6019, y -1152) in the same hunt.",
+            "Then arrive at Fred's Last Stand (x: -5166, y: 940) in the same hunt.",
+            "At any point during the same hunt, ID footprints from a Grey Wolf.",
+            "At any point during the same hunt, ID droppings from a Grey Wolf.",
+            "At any point during the same hunt, ID any clue (footprints, droppings, or audio) from a Puma.",
+            "At any point during the same hunt, spot a Bighorn Sheep.",
+            "At any point during the same hunt, harvest a Bighorn Sheep with a score of at least 144 points.",
+            "At any point during the same hunt, harvest another Bighorn Sheep with any .30 R O/U Break Action Rifle.",
+            "At any point during the same hunt, harvest a Grizzly Bear."
+          ],
+        },
+        {
+          missionID: "r11-9",
+          name: "Mountain Bastion",
+          earnings: "1800",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w55", "w56", "w57", "w58"],
+              text: "Use Heavy Recurve Bow, Recurve Bow, Longbow or Cable-backed Bow"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/3/33/Tt_mission_9.png",
+            link: ""
+          },
+          goals: [
+            "Start at Goldhorn Pass in Timbergold Trails.",
+            "Then arrive at Dusty Paws (x: -5700, y: 2116) in the same hunt.",
+            "Then arrive at Riverpine Cabin (x: -4583, y: 1060) in the same hunt.",
+            "Then arrive at Howling Heights (x: -2288, y: 1112) in the same hunt.",
+            "Then arrive at Everfall Lodge in the same hunt.",
+            "At any point during the same hunt, spot a Puma.",
+            "At any point during the same hunt, harvest a Puma.",
+            "At any point during the same hunt, harvest a Grizzly Bear.",
+            "At any point during the same hunt, harvest a Grey Wolf with any traditional bow."
+          ],
+        },
+        {
+          missionID: "r11-10",
+          name: "Settling Matters",
+          earnings: "3600",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w45"],
+              text: ".454 Revolver"
+            },
+            {
+              weapons: ["w37"],
+              text: "12 GA Blaser F3 Game O/U Shotgun"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/4/4a/Tt_mission_10.png",
+            link: ""
+          },
+          goals: [
+            "Start at Goldhorn Pass in Timbergold Trails.",
+            "Then arrive at Riverpine Cabin (x: -4583, y: 1060).",
+            "Then arrive at the Eastern Tunnel entrance located at (x: -3083, y: -572). Go through the tunnel (default key: E).",
+            "Then arrive at Ol 'Reynold Lost Nugget (x -5404, y -2010).",
+            "Harvest a Grizzly Bear with any .454 Revolver.",
+            "Harvest a Grey Wolf.",
+            "Harvest a Puma.",
+            "Harvest a male Rocky Mountain Elk.",
+            "Harvest a male Mule Deer.",
+            "Harvest a Bighorn Sheep.",
+            "Harvest an airborne White-tailed Ptarmigan using a 12 GA Blaser F3 Game O/U Shotgun."
+          ],
+        },
+      ],
+    },
+    {
+      id: "r12",
+      name: "Piccabeen Bay Missions",
+      displayName: "Piccabeen Bay Travel",
+      animalID: "r12",
+      filterArray: ["r12"], // Reservati na kojim se nalazi
+      missionPackValue: "10.000gm$",
+      imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/c/c3/PB_icon.png",
+      bgURL: "https://i.postimg.cc/BQQxkWM8/bc9b968c-1453-40ca-ae01-1cd5d929f8f7.jpg",
+      missionsList: [
+        {
+          missionID: "r12-1",
+          name: "If I must, I must",
+          earnings: "100",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false, // da li je zavrsena misija
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/6/6f/PB_Mission_1.png",
+            link: ""
+          },
+          goals: [
+            "Start at Cicada Cove Lodge",
+            "Then arrive at Bumpy Ridge (X: 7164, Y: 9870) in the same hunt.",
+            "Then arrive at Banteng Bay (X: 5595, Y: 8783) in the same hunt.",
+            "At any point in the same hunt, ID a footprint from a Rusa Deer.",
+            "At any point in the same hunt, ID droppings from a Rusa Deer.",
+            "At any point in the same hunt, ID a footprint from a Feral Hog.",
+            "At any point in the same hunt, ID droppings from a Feral Hog.",
+            "At any point in the same hunt, ID any clue (footprints, droppings, or audio) from a Banteng."
+          ],
+        },
+        {
+          missionID: "r12-2",
+          name: "Go do… something",
+          earnings: "200",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/2/25/PB_Mission_2.png",
+            link: ""
+          },
+          goals: [
+            "Start at Rooingong Lodge.",
+            "Then arrive at The Tributary (X: 4941, Y: 6481) in the same hunt.",
+            "Then arrive at Dawg's Secret Spot (X: 5929, Y: 5734) in the same hunt.",
+            "At any point in the same hunt, ID a footprint from a Sambar Deer.",
+            "At any point in the same hunt, ID droppings from a Sambar Deer.",
+            "At any point in the same hunt, ID any clue (footprints, droppings, or audio) from a Feral Hog."
+          ],
+        },
+        {
+          missionID: "r12-3",
+          name: "Knowledge is power",
+          earnings: "300",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/d/df/PB_Mission_3.png",
+            link: ""
+          },
+          goals: [
+            "Start at Rooingong Lodge",
+            "Then arrive at Sambar Center (X: 5825, Y: 6918) in the same hunt.",
+            "Then arrive at Dawg's Secret Spot (X: 5929, Y: 5734) in the same hunt.",
+            "Then arrive at The Edge (X: 6653, Y: 6436) in the same hunt.",
+            "At any point in the same hunt, ID any clue (footprints, droppings, or audio) from a Rusa Deer.",
+            "At any point in the same hunt, harvest a Feral Hog."
+          ],
+        },
+        {
+          missionID: "r12-4",
+          name: "It's efficiency, not laziness",
+          earnings: "400",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: [
+                "w8", "w17", "w20", "w21", "w30", "w45", "w49", "w50", "w31", "w13", "w22", "w15", "w28",
+                "w16", "w24", "w51", "w52", "w53", "w54", "w55", "w56", "w59", "w60"
+              ],
+              text: `
+                .300 Bolt Action Rifle,
+                .340 Weatherby Magnum Bolt Action Rifle,
+                .405 Lever Action Rifle,
+                .45-70 Government Lever Action Rifle,
+                .45-70 Buffalo Rifle,
+                .454 Revolver,
+                .50 Inline Muzzleloader,
+                .50 Inline Muzzleloading Pistol,
+                16GA/9.3x74R Drilling,
+                7mm Magnum Bullpup Rifle,
+                7mm Magnum Break Action Rifle,
+                8x57 IS Anschütz 1780 D FL Bolt Action Rifle,
+                8x57 IS K98k Bolt Action Rifle,
+                9.3x62 Anschütz 1780 D FL Bolt Action Rifle,
+                9.3x74R O/U Break Action Rifle,
+                any Compound bow,
+                any Recurve bow,
+                any Crossbow
+              `
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/6/63/PB_Mission_4.png",
+            link: ""
+          },
+          goals: [
+            "Start at Rooingong Lodge.",
+            "Then arrive at Bunyip Lair (X: 5540, Y: 7756) in the same hunt.",
+            "Then arrive at Old Abandoned Steam Train (X: 6151, Y: 8241) in the same hunt.",
+            "Then arrive at The Plateau (X: 7065, Y: 7475) in the same hunt.",
+            "At any point in the same hunt, ID any 3 clues from different Banteng.",
+            "At any point in the same hunt, ID any 3 clues from different Water Buffalo.",
+            "At any point in the same hunt, harvest a Banteng."
+          ],
+        },
+        {
+          missionID: "r12-5",
+          name: "Too many coddlers out there",
+          earnings: "600",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: [
+                "w17", "w20", "w21", "w30", "w45", "w49", "w50", "w31",
+                "w24", "w51", "w52", "w53", "w54", "w55", "w56", "w59", "w60"
+              ],
+              text: `
+                .340 Weatherby Magnum Bolt Action Rifle,
+                .405 Lever Action Rifle,
+                .45-70 Government Lever Action Rifle,
+                .45-70 Buffalo Rifle,
+                .454 Revolver,
+                .50 Inline Muzzleloader,
+                .50 Inline Muzzleloading Pistol,
+                16GA/9.3x74R Drilling,
+                9.3x74R O/U Break Action Rifle,
+                any Compound bow,
+                any Recurve bow,
+                any Crossbow
+              `
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/c/cf/PB_Mission_5.png",
+            link: ""
+          },
+          goals: [
+            "Start at Cicada Cove Lodge.",
+            "Then arrive at Saint Pauli's Lighthouse (X: 7555, Y: 8733).",
+            "Then arrive at Banteng Bay (X: 5595, Y: 8783).",
+            "Then arrive at Bunyip Lair (X: 5540, Y: 7756).",
+            "Then arrive at The Tributary (X: 4941, Y: 6481).",
+            "Spot a Water Buffalo.",
+            "Harvest a Water Buffalo.",
+            "Spot a Rusa Deer.",
+            "Harvest a Rusa Deer.",
+            "Spot a Banteng.",
+            "Harvest a Banteng."
+          ],
+        },
+        {
+          missionID: "r12-6",
+          name: "I'll get the knife later",
+          earnings: "800",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/6/6f/PB_Mission_6.png",
+            link: ""
+          },
+          goals: [
+            "Start at Rooingong Lodge.",
+            "Then arrive at Banteng Bay (X: 5595, Y: 8783).",
+            "Then arrive at Bunyip Lair (X: 5540, Y: 7756).",
+            "Then arrive at Sambar Center (X: 5825, Y: 6918).",
+            "Then arrive at The Pocket (X: 6700, Y: 6672).",
+            "Then arrive at The Plateau (X: 7065, Y: 7475).",
+            "Then arrive at Saint Pauli's Lighthouse (X: 7555, Y: 8733).",
+            "Harvest a male Sambar Deer weighing more than 420 kg (Approx. 926 lbs).",
+            "Harvest a Water Buffalo scoring more than 200.",
+            "Harvest a male Feral Hog."
+          ],
+        },
+        {
+          missionID: "r12-7",
+          name: "Unreasonable demands",
+          earnings: "1000",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w51", "w52", "w53", "w54", "w55", "w56", "w57", "w58", "w59", "w60"],
+              text: "Use any bow or crossbow"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/d/d4/PB_Mission_7.png",
+            link: ""
+          },
+          goals: [
+            "Start at Cicada Cove Lodge.",
+            "Then arrive at Saint Pauli's Lighthouse (X: 7555, Y: 8733).",
+            "Then arrive at The Plateau (X: 7065, Y: 7475).",
+            "Then arrive at The Pocket (X: 6700, Y: 6672).",
+            "Then arrive at Sambar Center (X: 5825, Y: 6918).",
+            "Then arrive at Bunyip Lair (X: 5540, Y: 7756).",
+            "Then arrive at Old Abandoned Steam Train (X: 6151, Y: 8241).",
+            "Harvest an unspooked male Sambar Deer with any bow or crossbow.",
+            "Harvest an unspooked female Sambar Deer with any bow or crossbow.",
+            "Harvest an unspooked male Rusa Deer with any bow or crossbow.",
+            "Harvest an unspooked female Rusa Deer with any bow or crossbow."
+          ],
+        },
+        {
+          missionID: "r12-8",
+          name: "Should've hidden better",
+          earnings: "1200",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: [
+                "w17", "w20", "w21", "w30", "w45", "w49", "w50", "w31",
+                "w24", "w51", "w52", "w53", "w54", "w55", "w56", "w59", "w60"
+              ],
+              text: `
+                .340 Weatherby Magnum Bolt Action Rifle,
+                .405 Lever Action Rifle,
+                .45-70 Government Lever Action Rifle,
+                .45-70 Buffalo Rifle,
+                .454 Revolver,
+                .50 Inline Muzzleloader,
+                .50 Inline Muzzleloading Pistol,
+                16GA/9.3x74R Drilling,
+                9.3x74R O/U Break Action Rifle,
+                any Compound bow,
+                any Recurve bow,
+                any Crossbow
+              `
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/9/9b/PB_Mission_8.png",
+            link: ""
+          },
+          goals: [
+            "Start at Cicada Cove Lodge.",
+            "Then arrive at Saint Pauli's Lighthouse (X: 7555, Y: 8733).",
+            "Then arrive at The Plateau (X: 7065, Y: 7475).",
+            "Then arrive at Bunyip Lair (X: 5540, Y: 7756).",
+            "Then arrive at Banteng Bay (X: 5595, Y: 8783).",
+            "Harvest a charging Water Buffalo.",
+            "Harvest a Dark Banteng.",
+            "Harvest a Feral Hog scoring more than 800."
+          ],
+        },
+        {
+          missionID: "r12-9",
+          name: "Persistence really does pay off",
+          earnings: "1800",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/e/e1/PB_Mission_9.png",
+            link: ""
+          },
+          goals: [
+            "Start at Cicada Cove Lodge.",
+            "Then arrive at Saint Pauli's Lighthouse (X: 7555, Y: 8733).",
+            "Then arrive at Old Abandoned Steam Train (X: 6151, Y: 8241).",
+            "Then arrive at Bunyip Lair (X: 5540, Y: 7756).",
+            "Then arrive at Banteng Bay (X: 5595, Y: 8783).",
+            "Then arrive at Bumpy Ridge (X: 7164, Y: 9870).",
+            "ID any clue from a Magpie Goose.",
+            "Harvest an airborne Magpie Goose.",
+            "Harvest a second airborne Magpie Goose.",
+            "Harvest a third airborne Magpie Goose.",
+            "Harvest a female Rusa Deer.",
+            "Harvest a Feral Hog."
+          ],
+        },
+        {
+          missionID: "r12-10",
+          name: "Go map the coast or something",
+          earnings: "3600",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w55", "w56", "w57", "w58"],
+              text: "Use Heavy Recurve Bow, Recurve Bow, Longbow or Cable-backed Bow"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/4/47/PB_Mission_10.png",
+            link: ""
+          },
+          goals: [
+            "Start at Rooingong Lodge.",
+            "Then arrive at The Tributary (X: 4941, Y: 6481).",
+            "Then arrive at Dawg's Secret Spot (X: 5929, Y: 5734).",
+            "Then arrive at The Pocket (X: 6700, Y: 6672).",
+            "Then arrive at The Plateau (X: 7065, Y: 7475).",
+            "Then arrive at Saint Pauli's Lighthouse (X: 7555, Y: 8733).",
+            "Then arrive at Cicada Cove Lodge.",
+            "Harvest a Feral Hog with any traditional bow.",
+            "Harvest a Rusa Deer with any traditional bow.",
+            "Harvest a Sambar Deer with any traditional bow.",
+            "Harvest a Banteng with any traditional bow.",
+            "Harvest a Water Buffalo with any traditional bow.",
+            "Harvest an airborne Magpie Goose with any traditional bow."
+          ],
+        },
+      ],
+    },
+    // weapons and ither missions
+    {
+      id: "wp1",
+      name: "Advanced Firearms Missions",
+      displayName: "Advanced Firearms",
+      animalID: "wp1",
+      filterArray: ["f1", "r2", "r7", "r4", "r3", "r5", "r6"], // Reservati na kojim se nalazi
+      missionPackValue: "10.000gm$",
+      imageURL: "https://i.postimg.cc/vTDvyj6P/iSr91k-F.jpg",
+      bgURL: "https://i.postimg.cc/vTDvyj6P/iSr91k-F.jpg",
+      missionsList: [
+        {
+          missionID: "wp1-1",
+          name: "Advanced Firearms: Logger's Point",
+          earnings: "750",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false, // da li je zavrsena misija
+          passable: true,
+          require: [
+            {
+              weapons: ["w31"],
+              text: "16GA/9.3x74R Drilling"
+            },
+            {
+              weapons: ["w32"],
+              text: "7mm-08 Scout Bolt Action Rifle"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a female Cottontail Rabbit in Logger's Point using the 16GA/9.3x74R Drilling Combination Gun.",
+            "Harvest a male Whitetail Deer in Logger's Point scoring more than 120 using 7mm-08 ammunition.",
+            "Harvest a Coyote in Logger's Point using the 16GA/9.3x74R Drilling Combination Gun."
+          ],
+        },
+        {
+          missionID: "wp1-2",
+          name: "Advanced Firearms: Rougarou Bayou",
+          earnings: "1000",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w31"],
+              text: "16GA/9.3x74R Drilling"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest an airborne Mallard Duck with a single shot in Rougarou Bayou using the 16GA/9.3x74R Drilling Combination Gun.",
+            "Harvest a second airborne Mallard Duck with a single shot in Rougarou Bayou using the 16GA/9.3x74R Drilling Combination Gun.",
+            "Harvest an airborne Gadwall with a single shot in Rougarou Bayou using the 16GA/9.3x74R Drilling Combination Gun.",
+            "Harvest a second airborne Gadwall with a single shot in Rougarou Bayou using the 16GA/9.3x74R Drilling Combination Gun.",
+            "Harvest an airborne Northern Pintail with a single shot in Rougarou Bayou using the 16GA/9.3x74R Drilling Combination Gun.",
+            "Harvest a second airborne Northern Pintail with a single shot in Rougarou Bayou using the 16GA/9.3x74R Drilling Combination Gun.",
+            "Harvest an airborne American Black Duck with a single shot in Rougarou Bayou using the 16GA/9.3x74R Drilling Combination Gun.",
+            "Harvest a second airborne American Black Duck with a single shot in Rougarou Bayou using the 16GA/9.3x74R Drilling Combination Gun."
+          ],
+        },
+        {
+          missionID: "wp1-3",
+          name: "Advanced Firearms: Redfeather Falls",
+          earnings: "1500",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w31", "w32"],
+              text: "16GA/9.3x74R Drilling or 7mm-08 Scout Bolt Action Rifle"
+            },
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a male Blacktail Deer from more than 150m (Approx. 492 ft) in Redfeather Falls using a 16GA/9.3x74R Drilling Combination Gun or the 7mm-08 Scout Bolt Action Rifle with 7mm-08 Ammunition (HV).",
+            "Harvest a Black Bear scoring more than 21 in Redfeather Falls using a 16GA/9.3x74R Drilling Combination Gun or the 7mm-08 Scout Bolt Action Rifle with 7mm-08 Ammunition (HP).",
+            "Harvest a male Light Moose from more than 75m (Approx. 246 ft) in Redfeather Falls with a shot to the heart and/or lungs using the 16GA/9.3x74R Drilling Combination Gun or the 7mm-08 Scout Bolt Action Rifle with 7mm-08 Ammunition (HP) without a scope."
+          ],
+        },
+        {
+          missionID: "wp1-4",
+          name: "Advanced Firearms: Hirschfelden",
+          earnings: "2250",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w31"],
+              text: "16GA/9.3x74R Drilling"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a male Chocolate Fallow Deer in Hirschfelden using any ethical ammunition from the 16GA/9.3x74R Drilling Combination Gun.",
+            "Harvest an airborne male Pheasant in Hirschfelden scoring more than 25 using the 16GA/9.3x74R Drilling Combination Gun.",
+            "Harvest a Red Fox with a single shot in Hirschfelden using the 16GA/9.3x74R Drilling Combination Gun. The skull must not be hit."
+          ],
+        },
+        {
+          missionID: "wp1-5",
+          name: "Advanced Firearms: Hemmeldal",
+          earnings: "2500",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w31"],
+              text: "16GA/9.3x74R Drilling"
+            },
+            {
+              weapons: ["w32"],
+              text: "7mm-08 Scout Bolt Action Rifle"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Grey coloured Eurasian Lynx in Hemmeldal using any ethical ammunition from the 16GA/9.3x74R Drilling Combination Gun or the 7mm-08 Scout Bolt Action Rifle.",
+            "Harvest a male Roe Deer in Hemmeldal scoring more than 175 using any ethical ammunition from the 16GA/9.3x74R Drilling Combination Gun or the 7mm-08 Scout Bolt Action Rifle.",
+            "Harvest a Brown Bear in Hemmeldal with a shot to the heart and/or lungs from over 100m (Approx 328ft) using any ethical ammunition from the 16GA/9.3x74R Drilling Combination Gun or the 7mm-08 Scout Bolt Action Rifle.",
+            "Harvest an airborne Willow Ptarmigan in Hemmeldal from over 20m using the 16GA/9.3x74R Drilling Combination Gun.",
+            "Harvest an airborne Willow Ptarmigan in Hemmeldal from over 25m using the 16GA/9.3x74R Drilling Combination Gun.",
+            "Harvest an airborne Willow Ptarmigan in Hemmeldal from over 30m using the 16GA/9.3x74R Drilling Combination Gun."
+          ],
+        },
+      ],
+    },
+    {
+      id: "wp2",
+      name: "Aimpoint Missions",
+      displayName: "Aimpoint",
+      animalID: "wp2",
+      filterArray: ["f1", "r4", "r6", "r7", "r5", "r8", "r9"], // Reservati na kojim se nalazi
+      missionPackValue: "5.000gm$",
+      imageURL: "https://i.postimg.cc/fbwfQ0KL/tenpoint.png",
+      bgURL: "https://i.postimg.cc/fbwfQ0KL/tenpoint.png",
+      missionsList: [
+        {
+          missionID: "wp2-1",
+          name: "Keep Your Eye Open",
+          earnings: "100",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false, // da li je zavrsena misija
+          passable: true,
+          require: [
+            {
+              weapons: ["s2"],
+              text: "Aimpoint H34L"
+            },
+            {
+              weapons: ["w9", "w13", "w22", "w15", "w16"],
+              text: `
+                .308 Anschütz 1780 D FL Bolt Action Rifle, 
+                7mm Magnum Bullpup Rifle,
+                7mm Magnum Break Action Rifle,
+                8x57 IS Anschütz 1780 D FL Bolt Action Rifle,
+                9.3x62 Anschütz 1780 D FL Bolt Action Rifle
+                `
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Whitetail Deer at Redfeather Falls using a rifle mounted with an Aimpoint sight.",
+            "Harvest a Blacktail Deer at Redfeather Falls using a rifle mounted with an Aimpoint sight in the same hunt.",
+            "Harvest a Black Bear at Redfeather Falls using a rifle mounted with an Aimpoint sight in the same hunt.",
+            "Harvest a Roosevelt Elk at Redfeather Falls using a rifle mounted with an Aimpoint sight in the same hunt.",
+            "Harvest a Moose at Redfeather Falls using a rifle mounted with an Aimpoint sight in the same hunt."
+          ],
+        },
+        {
+          missionID: "wp2-2",
+          name: "Under Extreme Circumstances",
+          earnings: "250",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["s2"],
+              text: "Aimpoint H34L"
+            },
+            {
+              weapons: ["w9", "w13", "w22", "w15", "w16"],
+              text: `
+                .308 Anschütz 1780 D FL Bolt Action Rifle, 
+                7mm Magnum Bullpup Rifle,
+                7mm Magnum Break Action Rifle,
+                8x57 IS Anschütz 1780 D FL Bolt Action Rifle,
+                9.3x62 Anschütz 1780 D FL Bolt Action Rifle
+                `
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Feral Hog in Rougarou Bayou using a rifle mounted with an Aimpoint sight without using a tower, blind, tree stand or tripod.",
+            "Harvest a Brown Bear in Hemmeldal using a rifle mounted with an Aimpoint sight without using a tower, a blind, tree stand or tripod."
+          ],
+        },
+        {
+          missionID: "wp2-3",
+          name: "Timing A Shot",
+          earnings: "500",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["s2"],
+              text: "Aimpoint H34L"
+            },
+            {
+              weapons: ["w1"],
+              text: ".223 Bolt Action Rifle"
+            },
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a moving Red Fox using a .223 Bolt Action Rifle mounted with a Aimpoint sight."
+          ],
+        },
+        {
+          missionID: "wp2-4",
+          name: "From Eyes To Trigger",
+          earnings: "1250",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["s1"],
+              text: "Aimpoint Micro H-1"
+            },
+            {
+              weapons: ["w11"],
+              text: "6.5x55 Blaser R8 Bolt Action Rifle"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a spooked Roe Deer using a 6.5x55 Blaser R8 Bolt Action Rifle mounted with a Aimpoint Micro H-1 Sight from under 20 meter.",
+            "Harvest another spooked Roe Deer using a 6.5x55 Blaser R8 Bolt Action Rifle mounted with a Aimpoint Micro H-1 Sight from under 20 meter."
+          ],
+        },
+        {
+          missionID: "wp2-5",
+          name: "The Heart Of The Matter",
+          earnings: "2900",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["s2"],
+              text: "Aimpoint H34L"
+            },
+            {
+              weapons: ["w9", "w13", "w22", "w15", "w16"],
+              text: `
+                .308 Anschütz 1780 D FL Bolt Action Rifle, 
+                7mm Magnum Bullpup Rifle,
+                7mm Magnum Break Action Rifle,
+                8x57 IS Anschütz 1780 D FL Bolt Action Rifle,
+                9.3x62 Anschütz 1780 D FL Bolt Action Rifle
+                `
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Wild Boar with a shot through the heart using a rifle mounted with a Aimpoint H34L Sight."
+          ],
+        },
+      ],
+    },
+    {
+      id: "wp3",
+      name: "Anschütz Missions",
+      displayName: "Anschütz",
+      animalID: "wp3",
+      filterArray: ["f1", "r1", "r2", "r3", "r4", "r5", "r6", "r7", "r8", "r11"], // Reservati na kojim se nalazi
+      missionPackValue: "10.000gm$",
+      imageURL: "https://i.postimg.cc/fbK5VvLm/tenpoint.png",
+      bgURL: "https://i.postimg.cc/fbK5VvLm/tenpoint.png",
+      missionsList: [
+        {
+          missionID: "wp3-1",
+          name: "Roe For Starters",
+          earnings: "100",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false, // da li je zavrsena misija
+          passable: true,
+          require: [
+            {
+              weapons: ["w9"],
+              text: ".308 Anschütz 1780 D FL Bolt Action Rifle"
+            },
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Roe Deer using a .308 Anschütz 1780 D FL Bolt Action Rifle.",
+            "Harvest another Roe Deer using a .308 Anschütz 1780 D FL Bolt Action Rifle during the same hunt.",
+            "Harvest another Roe Deer using a .308 Anschütz 1780 D FL Bolt Action Rifle during the same hunt."
+          ],
+        },
+        {
+          missionID: "wp3-2",
+          name: "Everything Is Coming Up Mule Deer",
+          earnings: "200",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w9"],
+              text: ".308 Anschütz 1780 D FL Bolt Action Rifle"
+            },
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Mule Deer with a heart or lung shot using a .308 Anschütz 1780 D FL Bolt Action Rifle."
+          ],
+        },
+        {
+          missionID: "wp3-3",
+          name: "Blacktail From Afar",
+          earnings: "300",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w15"],
+              text: "8x57 IS Anschütz 1780 D FL Bolt Action Rifle"
+            },
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Blacktail Deer using a 8x57 IS Anschütz 1780 D FL Bolt Action Rifle from a minimum of 100 meters (approx. 328 ft).",
+            "Harvest another Blacktail Deer using a 8x57 IS Anschütz 1780 D FL Bolt Action Rifle from a minimum of 120 meters (approx. 328 ft) during the same hunt.",
+            "Harvest another Blacktail Deer using a 8x57 IS Anschütz 1780 D FL Bolt Action Rifle from a minimum of 140 meters (approx. 459 ft.) during the same hunt."
+          ],
+        },
+        {
+          missionID: "wp3-4",
+          name: "Whitetail Up Close",
+          earnings: "400",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w15"],
+              text: "8x57 IS Anschütz 1780 D FL Bolt Action Rifle"
+            },
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Whitetail Deer using a 8x57 IS Anschütz 1780 D FL Bolt Action Rifle without a scope.",
+            "Harvest another Whitetail Deer using a 8x57 IS Anschütz 1780 D FL Bolt Action Rifle without a scope in the same hunt."
+          ],
+        },
+        {
+          missionID: "wp3-5",
+          name: "Chunky Red Deer",
+          earnings: "600",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w16"],
+              text: "9.3x62 Anschütz 1780 D FL Bolt Action Rifle"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Red Deer weighing at least 190 kg (approx. 419 lbs) using a 9.3x62 Anschütz 1780 D FL Bolt Action Rifle.",
+            "Harvest another Red Deer weighing at least 190 kg (approx. 419 lbs) using a 9.3x62 Anschütz 1780 D FL Bolt Action Rifle."
+          ],
+        },
+        {
+          missionID: "wp3-6",
+          name: "Big Boned Roosevelt Elk",
+          earnings: "800",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w16"],
+              text: "9.3x62 Anschütz 1780 D FL Bolt Action Rifle"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Roosevelt Elk weighing at least 400 kg (approx. 882 lbs.) using a 9.3x62 Anschütz 1780 D FL Bolt Action Rifle.",
+            "Harvest another Roosevelt Elk weighing at least 400 kg (approx. 882 lbs.) using a 9.3x62 Anschütz 1780 D FL Bolt Action Rifle."
+          ],
+        },
+        {
+          missionID: "wp3-7",
+          name: "Mighty Moose",
+          earnings: "1000",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w9", "w15", "w16"],
+              text: ".308 Anschütz 1780 D FL Bolt Action Rifle, 8x57 IS Anschütz 1780 D FL Bolt Action Rifle or 9.3x62 Anschütz 1780 D FL Bolt Action Rifle"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Moose with at least 16 typical points using either a .308, 8x57 or a 9.3x62 Anschütz Rifle."
+          ],
+        },
+        {
+          missionID: "wp3-8",
+          name: "Wild Boar Galore",
+          earnings: "1200",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w9", "w15", "w16"],
+              text: ".308 Anschütz 1780 D FL Bolt Action Rifle, 8x57 IS Anschütz 1780 D FL Bolt Action Rifle or 9.3x62 Anschütz 1780 D FL Bolt Action Rifle"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Wild Boar with both tusks at least 4 inches in length using either a .308, 8x57 or a 9.3x62 Anschütz Rifle"
+          ],
+        },
+        {
+          missionID: "wp3-9",
+          name: "Rather Far Away",
+          earnings: "1800",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w16"],
+              text: "9.3x62 Anschütz 1780 D FL Bolt Action Rifle"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Brown Bear from a minimum of 180 meters using a 9.3x62 Anschütz 1780 D FL Bolt Action Rifle"
+          ],
+        },
+        {
+          missionID: "wp3-10",
+          name: "Eyes of the Hawk",
+          earnings: "3600",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w9"],
+              text: ".308 Anschütz 1780 D FL Bolt Action Rifle"
+            },
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Coyote from a minimum of 80 meters using a .308 Anschütz 1780 D FL Bolt Action Rifle without using a scope."
+          ],
+        },
+      ],
+    },
+    {
+      id: "wp4",
+      name: "Blaser Missions",
+      displayName: "Blaser",
+      animalID: "wp4",
+      filterArray: ["f1", "r4", "r6", "r10", "r5", "r2", "r3", "r7", "r9", "r12", "r8"], // Reservati na kojim se nalazi
+      missionPackValue: "5.000gm$",
+      imageURL: "https://i.postimg.cc/SRtvJfgD/tenpoint.png",
+      bgURL: "https://i.postimg.cc/SRtvJfgD/tenpoint.png",
+      missionsList: [
+        {
+          missionID: "wp4-1",
+          name: "Moose Hunt Up Close",
+          earnings: "100",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false, // da li je zavrsena misija
+          passable: true,
+          require: [
+            {
+              weapons: ["w37"],
+              text: "12 GA Blaser F3 Game O/U Shotgun"
+            },
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Moose from under 30 meters (approx. 98 ft) using a 12 GA Blaser F3 Game O/U Shotgun loaded with Slug shells.",
+            "Harvest another Moose from under 30 meters (approx. 98 ft) using a 12 GA Blaser F3 Game O/U Shotgun loaded with Slug shells.",
+            "Harvest another Moose from under 30 meters (approx. 98 ft) using a 12 GA Blaser F3 Game O/U Shotgun loaded with Slug shells."
+          ],
+        },
+        {
+          missionID: "wp4-2",
+          name: "Pigs From Afar",
+          earnings: "250",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w11"],
+              text: "6.5x55 Blaser R8 Bolt Action Rifle"
+            },
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Wild Boar or a Feral Hog from over 150 meters (approx. 492 ft.) using the 6.5x55 Blaser R8 Bolt Action Rifle.",
+            "Harvest a Wild Boar or a Feral Hog from over 150 meters (approx. 492 ft.) using the 6.5x55 Blaser R8 Bolt Action Rifle.",
+            "Harvest a Wild Boar or a Feral Hog from over 150 meters (approx. 492 ft.) using the 6.5x55 Blaser R8 Bolt Action Rifle."
+          ],
+        },
+        {
+          missionID: "wp4-3",
+          name: "Running Roe Deers",
+          earnings: "500",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w37"],
+              text: "12 GA Blaser F3 Game O/U Shotgun"
+            },
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a moving Roe Deer using a 12 GA Blaser F3 Game O/U Shotgun loaded with Buckshot shells.",
+            "Harvest a moving Roe Deer using a 12 GA Blaser F3 Game O/U Shotgun loaded with Buckshot shells.",
+            "Harvest a moving Roe Deer using a 12 GA Blaser F3 Game O/U Shotgun loaded with Buckshot shells."
+          ],
+        },
+        {
+          missionID: "wp4-4",
+          name: "The Majestic Red Deer",
+          earnings: "1250",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w11"],
+              text: "6.5x55 Blaser R8 Bolt Action Rifle"
+            },
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Red Deer of at least a 200 point score using the 6.5x55 Blaser R8 Bolt Action Rifle.",
+            "Harvest another Red Deer of at least a 200 point score using the 6.5x55 Blaser R8 Bolt Action Rifle.",
+            "Harvest another Red Deer of at least a 200 point score using the 6.5x55 Blaser R8 Bolt Action Rifle."
+          ],
+        },
+        {
+          missionID: "wp4-5",
+          name: "Pheasant Hunting Done Right",
+          earnings: "2900",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w37"],
+              text: "12 GA Blaser F3 Game O/U Shotgun"
+            },
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest an airborne Pheasant using a 12 GA Blaser F3 Game O/U Shotgun loaded with Birdshot shells.",
+            "Harvest another airborne Pheasant using a 12 GA Blaser F3 Game O/U Shotgun loaded with Birdshot shells during the same hunt.",
+            "Harvest another airborne Pheasant using a 12 GA Blaser F3 Game O/U Shotgun loaded with Birdshot shells during the same hunt.",
+            "Harvest another airborne Pheasant using a 12 GA Blaser F3 Game O/U Shotgun loaded with Birdshot shells during the same hunt.",
+            "Harvest another airborne Pheasant using a 12 GA Blaser F3 Game O/U Shotgun loaded with Birdshot shells during the same hunt."
+          ],
+        },
+      ],
+    },
+    {
+      id: "wp5",
+      name: "Laura Francese Missions",
+      displayName: "Laura Francese",
+      animalID: "wp5",
+      filterArray: ["f1", "r1", "r2", "r3", "r4", "r6", "r10", "r5", "r8", "r9", "r7", "r12"], // Reservati na kojim se nalazi
+      missionPackValue: "10.000gm$",
+      imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/2/21/Laura_francese_avatar_256.png",
+      bgURL: "https://static.wikia.nocookie.net/thehuntergame/images/2/21/Laura_francese_avatar_256.png",
+      missionsList: [
+        {
+          missionID: "wp5-1",
+          name: "Prove Yourself",
+          earnings: "100",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false, // da li je zavrsena misija
+          passable: true,
+          require: [],
+          hint: {
+            text: "This mission can only be completed in the Redfeather Falls reserve.",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "ID tracks from a Whitetail Deer.",
+            "ID tracks from a Blacktail Deer during the same hunt.",
+            "ID tracks from a Roosevelt Elk during the same hunt.",
+            "ID tracks from a Black Bear during the same hunt.",
+            "ID tracks from a Moose during the same hunt"
+          ],
+        },
+        {
+          missionID: "wp5-2",
+          name: "Off With A Bang",
+          earnings: "200",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w48"],
+              text: ".50 Cap Lock Muzzleloader"
+            },
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Moose using a .50 Cap Lock Muzzleloader"
+          ],
+        },
+        {
+          missionID: "wp5-3",
+          name: "The Good, The Bad and the Ugly",
+          earnings: "300",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w41"],
+              text: ".22 Pistol"
+            },
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a male Turkey of at least 9 kg (approx. 19.8 lbs) using a .22 Pistol.",
+            "Harvest a male Turkey of at least 9 kg (approx. 19.8 lbs) using a .22 Pistol during the same hunt."
+          ],
+        },
+        {
+          missionID: "wp5-4",
+          name: "Straight Shooter",
+          earnings: "400",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w42"],
+              text: ".357 Revolver"
+            },
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Red Fox using a .357 Revolver without using a scope"
+          ],
+        },
+        {
+          missionID: "wp5-5",
+          name: "Main Ingredients",
+          earnings: "600",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w59", "w60"],
+              text: "Any crossbow"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Wild Boar using a Crossbow",
+            "Harvest a Feral Hog using a Crossbow"
+          ],
+        },
+        {
+          missionID: "wp5-6",
+          name: "Bull's Eye",
+          earnings: "800",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w59", "w60"],
+              text: "Any crossbow"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Roosevelt Elk Bull using a Crossbow from under 18.28 m (approx. 60 ft) without using a platform or blind"
+          ],
+        },
+        {
+          missionID: "wp5-7",
+          name: "First Step To Greatness",
+          earnings: "1000",
+          singleplayer: false,
           sameHunt: true,
           selected: false,
           passable: true,
           require: [
             {
               weapons: ["w51", "w52", "w53", "w54"],
-              text: "Use any compound bow"
+              text: "Any Compound bow"
             }
           ],
           hint: {
             text: "",
-            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/b/b1/Sc_mission_9.png",
+            imageURL: "",
             link: ""
           },
           goals: [
-            "Start at Homestead Lodge in Settler Creeks.",
-            "Then arrive at Tower 5 (x -6582, y 6229) in the same hunt.",
-            "Then arrive at Fort David in the same hunt.",
-            "Then arrive at Tower 4 (x -6889, y 5005) in the same hunt.",
-            "Then arrive at Tower 10 (x -6200, y 4814) in the same hunt.",
-            "Then arrive at Tower 7 (x -7150, y 4433) in the same hunt.",
-            "At any point during the same hunt, ID any clue from a Cottontail Rabbit.",
-            "At any point during the same hunt, harvest a Cottontail Rabbit.",
-            "At any point during the same hunt, ID any clue from a Whitetail Deer.",
-            "At any point during the same hunt, harvest a Whitetail Deer killed with any Compound Bow.",
-            "At any point during the same hunt, harvest a Roosevelt Elk."
+            "Harvest a Mule Deer using a Compound Bow.",
+            "Harvest a Whitetail Deer using a Compound Bow during the same hunt.",
+            "Harvest a Feral Hog using a Compound Bow during the same hunt."
           ],
         },
         {
-          missionID: "r4-10",
-          name: "Couples Dinner",
-          earnings: "3600",
-          singleplayer: true,
+          missionID: "wp5-8",
+          name: "Over The Fields And Far Away",
+          earnings: "1200",
+          singleplayer: false,
           sameHunt: true,
           selected: false,
           passable: true,
           require: [
             {
-              weapons: ["w13"],
-              text: "7mm Magnum Bullpup Rifle"
+              weapons: ["w51", "w52", "w53", "w54"],
+              text: "Any Compound bow"
             }
           ],
           hint: {
-            text: "Note that these objectives do not need to be done in one hunt",
-            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/9/9b/Sc_mission_10.png",
+            text: "",
+            imageURL: "",
             link: ""
           },
           goals: [
-            "Start at Homestead Lodge in Settler Creeks.",
-            "Then arrive at Tower 5 (x -6582, y 6229).",
-            "Then arrive at Fort David.",
-            "Then arrive at Sergeant's Rest Campsite.",
-            "Then arrive at Tower 9 (x -8173, y 4723).",
-            "Then arrive at Tower 1 (x -8130, y 4344).",
-            "Then arrive at Tower 11 (x -8275, y 4072).",
-            "Then arrive at Tower 8 (x -7085, y 3680).",
-            "Then arrive at Tower 6 (x -6494, y 4094).",
-            "Then arrive at Tower 10 (x -6200, y 4814).",
-            "Then arrive at Tower 4 (x -6889, y 5005).",
-            "At any point while in Settler Creeks, harvest a Cottontail Rabbit.",
-            "At any point while in Settler Creeks, harvest a Feral Hog killed with the 7mm Magnum Bullpup Rifle.",
-            "At any point while in Settler Creeks, ID droppings from a Black Bear.",
-            "At any point while in Settler Creeks, ID tracks from a Black Bear.",
-            "At any point while in Settler Creeks, harvest a male Black Bear.",
-            "At any point while in Settler Creeks, harvest a female Black Bear.",
-            "At any point while in Settler Creeks, harvest a Whitetail Deer.",
-            "At any point while in Settler Creeks, harvest a Roosevelt Elk."
+            "Harvest a Coyote from over 39.62 m (approx. 130 feet) using a Compound Bow.",
+            "Harvest a Coyote from over 39.62 m (approx. 130 feet) using a Compound Bow.",
+            "Harvest a Coyote from over 39.62 m (approx. 130 feet) using a Compound Bow."
+          ],
+        },
+        {
+          missionID: "wp5-9",
+          name: "Closing in",
+          earnings: "1800",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w55", "w56"],
+              text: "Heavy Recurve Bow or Recurve Bow"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest Red Deer from under 30.48 m (approx. 100 ft) with a Recurve Bow weighing at least 215.456 kg (approx. 475 lbs) and bringing in a score of at least 220 points. Stands, blinds and towers are not allowed."
+          ],
+        },
+        {
+          missionID: "wp5-10",
+          name: "The Ultimate Challenge",
+          earnings: "3600",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w55", "w56"],
+              text: "Heavy Recurve Bow or Recurve Bow"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Black Bear through a shot to the heart using a Recurve Bow"
+          ],
+        },
+      ],
+    },
+    {
+      id: "wp6",
+      name: "Nosler Missions",
+      displayName: "Nosler",
+      animalID: "wp6",
+      filterArray: ["f1", "r1", "r2", "r3", "r4", "r5", "r6", "r7", "r8", "r9", "r10", "r11", "r12"], // Reservati na kojim se nalazi
+      missionPackValue: "10.000gm$",
+      imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/5/50/Nosler_logo.jpg",
+      bgURL: "https://static.wikia.nocookie.net/thehuntergame/images/5/50/Nosler_logo.jpg",
+      missionsList: [
+        {
+          missionID: "wp6-1",
+          name: "The Big Mystery",
+          earnings: "100",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false, // da li je zavrsena misija
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Mule Deer using .243 ammunition.",
+            "Harvest another Mule Deer using .243 ammunition in the same hunt."
+          ],
+        },
+        {
+          missionID: "wp6-2",
+          name: "Varmint Hunting",
+          earnings: "200",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w1", "w2"],
+              text: ".223 Bolt Action Rifle or .223 Semi-Automatic Rifle"
+            },
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Red Fox or a Coyote using .223 ammunition.",
+            "Harvest another Red Fox or a Coyote using .223 ammunition.",
+            "Harvest another Red Fox or a Coyote using .223 ammunition."
+          ],
+        },
+        {
+          missionID: "wp6-3",
+          name: "Loud Bangs",
+          earnings: "300",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w19", "w25", "w26"],
+              text: ".30-06 Lever Action Rifle, .30-06 Bolt Action Rifle or .30-06 Stutzen Bolt Action Rifle"
+            },
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Roosevelt Elk bull weighing at least 400kg using .30-06 ammunition.",
+            "Harvest another Roosevelt Elk bull weighing at least 400kg using .30-06 ammunition in the same hunt."
+          ],
+        },
+        {
+          missionID: "wp6-4",
+          name: "Hog Slogging",
+          earnings: "400",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w43"],
+              text: ".44 Revolver"
+            },
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Feral Hog from a maximum distance of 30 meters (approx. 98 ft.) using .44 ammunition and without using a scope.",
+            "Harvest another Feral Hog from a maximum distance of 30 meters (approx. 98 ft.) using .44 ammunition and without using a scope.",
+            "Harvest a Wild Boar from a maximum distance of 30 meters (approx. 98 ft.) using .44 ammunition and without using a scope.",
+            "Harvest another Wild Boar from a maximum distance of 30 meters (approx. 98 ft.) using .44 ammunition and without using a scope."
+          ],
+        },
+        {
+          missionID: "wp6-5",
+          name: "Far Flung Bullet",
+          earnings: "600",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w8"],
+              text: ".300 Bolt Action Rifle"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Moose from over a 180 meter (approx. 591 ft.) distance using .300 ammunition"
+          ],
+        },
+        {
+          missionID: "wp6-6",
+          name: "White Lung",
+          earnings: "800",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w11", "w12"],
+              text: "6.5x55 Blaser R8 Bolt Action Rifle or 6.5x55 Bolt Action Rifle"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Whitetail Deer with a lung shot using 6.5x55 ammunition"
+          ],
+        },
+        {
+          missionID: "wp6-7",
+          name: "White Heart",
+          earnings: "1000",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w9", "w10", "w46"],
+              text: ".308 Anschütz 1780 D FL Bolt Action Rifle, .308 Bolt Action Rifle or .308 Handgun"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Whitetail Deer with a heart shot using .308 ammunition."
+          ],
+        },
+        {
+          missionID: "wp6-8",
+          name: "Bear",
+          earnings: "1200",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w15", "w28"],
+              text: "8x57 IS Anschütz 1780 D FL Bolt Action Rifle or 8x57 IS K98k Bolt Action Rifle"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Black Bear weighing at least 200kg (approx. 441 lbs.) using 8x57 ammunition."
+          ],
+        },
+        {
+          missionID: "wp6-9",
+          name: "Bear II: Rearmed",
+          earnings: "1800",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w16"],
+              text: "9.3x62 Anschütz 1780 D FL Bolt Action Rifle"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Brown Bear weighing at least 340kg (approx. 750 lbs.) using 9.3x62 ammunition"
+          ],
+        },
+        {
+          missionID: "wp6-10",
+          name: "Field Test Day From Hell",
+          earnings: "3600",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w1", "w2"],
+              text: ".223 Bolt Action Rifle or .223 Semi-Automatic Rifle"
+            },
+            {
+              weapons: ["w7"],
+              text: ".270 Bolt Action Rifle"
+            },
+            {
+              weapons: ["w8"],
+              text: ".300 Bolt Action Rifle"
+            },
+            {
+              weapons: ["w19", "w25", "w26"],
+              text: ".30-06 Lever Action Rifle, .30-06 Bolt Action Rifle or .30-06 Stutzen Bolt Action Rifle"
+            },
+            {
+              weapons: ["w9", "w10", "w46"],
+              text: ".308 Anschütz 1780 D FL Bolt Action Rifle, .308 Bolt Action Rifle or .308 Handgun"
+            },
+            {
+              weapons: ["w11", "w12"],
+              text: "6.5x55 Blaser R8 Bolt Action Rifle or 6.5x55 Bolt Action Rifle"
+            },
+            {
+              weapons: ["w15", "w28"],
+              text: "8x57 IS Anschütz 1780 D FL Bolt Action Rifle or 8x57 IS K98k Bolt Action Rifle"
+            },
+            {
+              weapons: ["w16"],
+              text: "9.3x62 Anschütz 1780 D FL Bolt Action Rifle"
+            },
+            {
+              weapons: ["w42"],
+              text: ".357 Revolver"
+            },,
+            {
+              weapons: ["w43"],
+              text: ".44 Revolver"
+            },
+            {
+              weapons: ["w13", "w22"],
+              text: "7mm Magnum Bullpup Rifle or 7mm Magnum Break Action Rifle"
+            },
+            {
+              weapons: ["w18"],
+              text: ".30-30 Lever Action Rifle"
+            },
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Roe Deer using .223 ammunition.",
+            "Harvest another Roe Deer using .270 ammunition in the same hunt.",
+            "Harvest another Roe Deer using .300 ammunition in the same hunt.",
+            "Harvest another Roe Deer using .30-06 ammunition in the same hunt.",
+            "Harvest another Roe Deer using .308 ammunition in the same hunt.",
+            "Harvest another Roe Deer using 6.5x55 ammunition in the same hunt.",
+            "Harvest another Roe Deer using 8x57 ammunition in the same hunt.",
+            "Harvest another Roe Deer using 9.3x62 ammunition in the same hunt.",
+            "Harvest another Roe Deer using .243 ammunition in the same hunt.",
+            "Harvest another Roe Deer using .357 ammunition in the same hunt.",
+            "Harvest another Roe Deer using .44 ammunition in the same hunt.",
+            "Harvest another Roe Deer using 7mm Magnum ammunition in the same hunt.",
+            "Harvest another Roe Deer using .30-30 ammunition in the same hunt."
+          ],
+        },
+      ],
+    },
+    {
+      id: "wp7",
+      name: "Parker Bows Missions",
+      displayName: "Parker Bows",
+      animalID: "wp7",
+      filterArray: ["f1", "r1", "r2", "r3", "r4", "r5", "r6", "r7", "r8", "r9"], // Reservati na kojim se nalazi
+      missionPackValue: "5.000gm$",
+      imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/c/c1/Parker_logo.jpg",
+      bgURL: "https://static.wikia.nocookie.net/thehuntergame/images/c/c1/Parker_logo.jpg",
+      missionsList: [
+        {
+          missionID: "wp7-1",
+          name: "Take Your Pick",
+          earnings: "100",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false, // da li je zavrsena misija
+          passable: true,
+          require: [
+            {
+              weapons: ["w52"],
+              text: "Compound Bow Parker Python"
+            },
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest one animal from Logger's Point reserve using a Parker Python Compound Bow.",
+            "Harvest another animal from Logger's Point reserve using a Parker Python Compound Bow in the same hunt.",
+            "Harvest another animal from Logger's Point reserve using a Parker Python Compound Bow in the same hunt."
+          ],
+        },
+        {
+          missionID: "wp7-2",
+          name: "Join The Herd",
+          earnings: "250",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+             {
+              weapons: ["w52"],
+              text: "Compound Bow Parker Python"
+            },
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Roe Deer from under 20 meters using a Parker Python Compound Bow.",
+            "Harvest another Roe Deer from under 20 meters using a Parker Python Compound Bow in the same hunt.",
+            "Harvest another Roe Deer from under 20 meters using a Parker Python Compound Bow in the same hunt.",
+            "Harvest another Roe Deer from under 20 meters using a Parker Python Compound Bow in the same hunt."
+          ],
+        },
+        {
+          missionID: "wp7-3",
+          name: "Pin Them Down",
+          earnings: "500",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+             {
+              weapons: ["w52"],
+              text: "Compound Bow Parker Python"
+            },
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Red Fox from a minimum of 20 meters using a Parker Python Compound Bow"
+          ],
+        },
+        {
+          missionID: "wp7-4",
+          name: "Pins And Needles",
+          earnings: "1250",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+             {
+              weapons: ["w52"],
+              text: "Compound Bow Parker Python"
+            },
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Coyote from a minimum of 40 meters using a Parker Python Compound Bow"
+          ],
+        },
+        {
+          missionID: "wp7-5",
+          name: "Pinhead",
+          earnings: "2900",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+             {
+              weapons: ["w52"],
+              text: "Compound Bow Parker Python"
+            },
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Whitetail Deer from a minimum of 60 meters using a Parker Python Compound Bow"
+          ],
+        },
+      ],
+    },
+    {
+      id: "wp8",
+      name: "Shotgun Missions",
+      displayName: "Shotgun",
+      animalID: "wp8",
+      filterArray: ["f1", "r1", "r2", "r3", "r4", "r6", "r7", "r8", "r9", "r10", "r11"], // Reservati na kojim se nalazi
+      missionPackValue: "10.000gm$",
+      imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/6/6a/Shells_16ga_buckshot.png",
+      bgURL: "https://static.wikia.nocookie.net/thehuntergame/images/6/6a/Shells_16ga_buckshot.png",
+      missionsList: [
+        {
+          missionID: "wp8-1",
+          name: "The Birdshot Chapter",
+          earnings: "100",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false, // da li je zavrsena misija
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Turkey in Settler Creeks using any permitted birdshot ammo.",
+            "Harvest a Cottontail Rabbit in Settler Creeks using any permitted birdshot ammo in the same hunt."
+          ],
+        },
+        {
+          missionID: "wp8-2",
+          name: "The Buckshot Chapter",
+          earnings: "200",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Red Fox in Hemmeldal using any permitted buckshot ammo.",
+            "Harvest an Eurasian Lynx in Hemmeldal using any permitted buckshot ammo in the same hunt.",
+            "Harvest a Roe Deer in Hemmeldal using any permitted buckshot ammo in the same hunt."
+          ],
+        },
+        {
+          missionID: "wp8-3",
+          name: "The Slug Chapter",
+          earnings: "300",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a male Feral Hog in Logger's Point using any permitted slug ammo.",
+            "Harvest a male Whitetail Deer in Logger's Point using any permitted slug ammo in the same hunt.",
+            "Harvest a male Mule Deer in Logger's Point using any permitted slug ammo in the same hunt."
+          ],
+        },
+        {
+          missionID: "wp8-4",
+          name: "The Cold Chapter",
+          earnings: "400",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Snowshoe Hare using any permitted shotgun ammunition.",
+            "Harvest an Arctic Fox using any permitted shotgun ammunition in the same hunt.",
+            "Harvest a Dall Sheep using any permitted shotgun ammunition in the same hunt.",
+            "Harvest a Sitka Deer using any permitted shotgun ammunition in the same hunt."
+          ],
+        },
+        {
+          missionID: "wp8-5",
+          name: "The Hot Chapter",
+          earnings: "600",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a European Rabbit at 100% Harvest Value in Bushrangers Run using any permitted shotgun ammunition.",
+            "Harvest a Feral Goat at 100% Harvest Value in Bushrangers Run using any permitted shotgun ammunition in the same hunt.",
+            "Harvest a Red Kangaroo at 100% Harvest Value in Bushrangers Run using any permitted shotgun ammunition in the same hunt."
+          ],
+        },
+        {
+          missionID: "wp8-6",
+          name: "The Autumn Chapter",
+          earnings: "800",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a White-tailed Ptarmigan in Timbergold Trails using any permitted shotgun ammunition.",
+            "Then harvest another White-tailed Ptarmigan in Timbergold Trails using any permitted shotgun ammunition in the same hunt.",
+            "Then harvest another White-tailed Ptarmigan in Timbergold Trails using any permitted shotgun ammunition in the same hunt.",
+            "Harvest a Grey Wolf in Timbergold Trails using any permitted shotgun ammunition in the same hunt.",
+            "Then harvest another Grey Wolf in Timbergold Trails using any permitted shotgun ammunition in the same hunt.",
+            "Harvest a Mule Deer in Timbergold Trails using any permitted shotgun ammunition in the same hunt."
+          ],
+        },
+        {
+          missionID: "wp8-7",
+          name: "The Poker Chapter",
+          earnings: "1000",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w37"],
+              text: "12 GA Blaser F3 Game O/U Shotgun"
+            },
+            {
+              weapons: ["w36", "w39"],
+              text: "12 GA Side By Side Shotgun or 16 GA Side By Side Shotgun"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Black Bear in Redfeather Falls using permitted ammo with the 12 GA Single Shot Shotgun.",
+            "Then harvest another Black Bear in Redfeather Falls using permitted ammo with the 12 GA Single Shot Shotgun.",
+            "Then harvest another Black Bear in Redfeather Falls using permitted ammo with the 12 GA Single Shot Shotgun.",
+            "Then harvest another Black Bear in Redfeather Falls using permitted ammo with the 12 GA Single Shot Shotgun.",
+            "Harvest a Whitetail Deer in Redfeather Falls using permitted ammo with any Side by Side Shotgun (12 GA Side By Side Shotgun, 16 GA Side By Side Shotgun) in the same hunt.",
+            "Then harvest another Whitetail Deer in Redfeather Falls using permitted ammo with any Side by Side Shotgun (12 GA Side By Side Shotgun, 16 GA Side By Side Shotgun) in the same hunt.",
+            "Then harvest another Whitetail Deer in Redfeather Falls using permitted ammo with any Side by Side Shotgun (12 GA Side By Side Shotgun, 16 GA Side By Side Shotgun) in the same hunt.",
+            "Then harvest another Whitetail Deer in Redfeather Falls using permitted ammo with any Side by Side Shotgun (12 GA Side By Side Shotgun, 16 GA Side By Side Shotgun) in the same hunt.",
+            "Harvest a Roosevelt Elk in Redfeather Falls using permitted ammo with a 12 GA Blaser F3 Game O/U Shotgun in the same hunt.",
+            "Harvest a Roosevelt Elk in Redfeather Falls using permitted ammo with a 12 GA Blaser F3 Game O/U Shotgun in the same hunt.",
+            "Harvest a Roosevelt Elk in Redfeather Falls using permitted ammo with a 12 GA Blaser F3 Game O/U Shotgun in the same hunt.",
+            "Harvest a Roosevelt Elk in Redfeather Falls using permitted ammo with a 12 GA Blaser F3 Game O/U Shotgun in the same hunt."
+          ],
+        },
+        {
+          missionID: "wp8-8",
+          name: "The Diversity Chapter",
+          earnings: "1200",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w33"],
+              text: "10 GA Lever Action Shotgun"
+            },
+            {
+              weapons: ["w34"],
+              text: "12 GA Pump Action Shotgun"
+            },
+            {
+              weapons: ["w35", "w40"],
+              text: "Maisto 12 GA Semi-Automatic Shotgun or 20 GA Semi-Automatic Shotgun"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Coyote in Whitehart Island using permitted ammo with any 12 GA Pump Action Shotgun.",
+            "Then harvest another Coyote in Whitehart Island using permitted ammo with any 12 GA Pump Action Shotgun in the same hunt.",
+            "Then harvest another Coyote in Whitehart Island using permitted ammo with any 12 GA Pump Action Shotgun in the same hunt.",
+            "Then harvest another Coyote in Whitehart Island using permitted ammo with any 12 GA Pump Action Shotgun in the same hunt.",
+            "Then harvest another Coyote in Whitehart Island using permitted ammo with any 12 GA Pump Action Shotgun in the same hunt.",
+            "Harvest a Turkey in Whitehart Island using permitted ammo with any semi-auto shotgun (20 GA Semi-Automatic Shotgun, Maisto 12 GA Semi-Automatic Shotgun) in the same hunt.",
+            "Then harvest another Turkey in Whitehart Island using permitted ammo with any semi-auto shotgun (20 GA Semi-Automatic Shotgun, Maisto 12 GA Semi-Automatic Shotgun) in the same hunt.",
+            "Then harvest another Turkey in Whitehart Island using permitted ammo with any semi-auto shotgun (20 GA Semi-Automatic Shotgun, Maisto 12 GA Semi-Automatic Shotgun) in the same hunt.",
+            "Then harvest another Turkey in Whitehart Island using permitted ammo with any semi-auto shotgun (20 GA Semi-Automatic Shotgun, Maisto 12 GA Semi-Automatic Shotgun) in the same hunt.",
+            "Then harvest another Turkey in Whitehart Island using permitted ammo with any semi-auto shotgun (20 GA Semi-Automatic Shotgun, Maisto 12 GA Semi-Automatic Shotgun) in the same hunt.",
+            "Harvest a Blacktail Deer in Whitehart Island using permitted ammo with 10 GA Lever Action Shotgun in the same hunt.",
+            "Then harvest another Blacktail Deer in Whitehart Island using permitted ammo with 10 GA Lever Action Shotgun in the same hunt.",
+            "Then harvest another Blacktail Deer in Whitehart Island using permitted ammo with 10 GA Lever Action Shotgun in the same hunt.",
+            "Then harvest another Blacktail Deer in Whitehart Island using permitted ammo with 10 GA Lever Action Shotgun in the same hunt.",
+            "Then harvest another Blacktail Deer in Whitehart Island using permitted ammo with 10 GA Lever Action Shotgun in the same hunt."
+          ],
+        },
+        {
+          missionID: "wp8-9",
+          name: "The Scope Chapter",
+          earnings: "1800",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w34", "w35"],
+              text: "12 GA Pump Action Shotgun or Maisto 12 GA Semi-Automatic Shotgun"
+            },
+            {
+              weapons: ["s3", "s4"],
+              text: "2-6x32mm Slug Scope or Maisto 2x Red Dot Shotgun Scope"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Roe Deer in Val-des-Bois using permitted buckshot ammo from a distance of 30 meters or higher using a scope.",
+            "Then harvest another Roe Deer in Val-des-Bois using permitted buckshot ammo from a distance of 30 meters or higher using a scope in the same hunt.",
+            "Then harvest another Roe Deer in Val-des-Bois using permitted buckshot ammo from a distance of 30 meters or higher using a scope in the same hunt.",
+            "Harvest a Rock Ptarmigan in Val-des-Bois using permitted birdshot ammo from a distance of 40 meters or higher using a scope in the same hunt.",
+            "Then harvest another Rock Ptarmigan in Val-des-Bois using permitted birdshot ammo from a distance of 40 meters or higher using a scope in the same hunt.",
+            "Then harvest another Rock Ptarmigan in Val-des-Bois using permitted birdshot ammo from a distance of 40 meters or higher using a scope in the same hunt.",
+            "Harvest a Brown Bear in Val-des-Bois using permitted slug ammo from a distance of 60 meters or higher using a scope in the same hunt.",
+            "Then harvest another Brown Bear in Val-des-Bois using permitted slug ammo from a distance of 60 meters or higher using a scope in the same hunt.",
+            "Then harvest another Brown Bear in Val-des-Bois using permitted slug ammo from a distance of 60 meters or higher using a scope in the same hunt."
+          ],
+        },
+        {
+          missionID: "wp8-10",
+          name: "Two Deer With One Stone",
+          earnings: "3600",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Kill two Whitetail Deer in Rougarou Bayou with a single shot using any permitted shotgun ammo."
+          ],
+        },
+      ],
+    },
+    {
+      id: "wp9",
+      name: "Smoke Pole Missions",
+      displayName: "Smoke Pole",
+      animalID: "wp9",
+      filterArray: ["f1", "r1", "r8", "r9", "r10", "r11", "r12"], // Reservati na kojim se nalazi
+      missionPackValue: "10.000gm$",
+      imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/8/8d/Balls_lead_50_256.png",
+      bgURL: "https://static.wikia.nocookie.net/thehuntergame/images/8/8d/Balls_lead_50_256.png",
+      missionsList: [
+        {
+          missionID: "wp9-1",
+          name: "Smoke Poles: Whitehart Island",
+          earnings: "750",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false, // da li je zavrsena misija
+          passable: true,
+          require: [
+            {
+              weapons: ["w48"],
+              text: ".50 Cap Lock Muzzleloader"
+            },
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a male Turkey in Whitehart Island using a .50 Patched Round Ball.",
+            "Harvest a Blacktail Deer in Whitehart Island using any Muzzleloader.",
+            "Harvest a Coyote in Whitehart Island using any Muzzleloader."
+          ],
+        },
+        {
+          missionID: "wp9-2",
+          name: "Smoke Poles: Val-des-Bois",
+          earnings: "1000",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w49", "w50"],
+              text: ".50 Inline Muzzleloader or .50 Inline Muzzleloading Pistol"
+            },
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a female Brown Bear in Val-des-Bois using any Muzzleloader.",
+            "Harvest a Red Deer scoring more than 200 in Val-des-Bois from less than 25m (approx. 82 ft) using a .50 Conical Bullet or a .50 Lead Bullet.",
+            "Harvest an Alpine Ibex with a shot to the heart and/or lungs in Val-des-Bois using a .45 Saboted Bullet or a .45 Copper Bullet."
+          ],
+        },
+        {
+          missionID: "wp9-3",
+          name: "Smoke Poles: Bushrangers Run",
+          earnings: "1500",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+             {
+              weapons: ["w49"],
+              text: ".50 Inline Muzzleloader"
+            },
+            {
+              weapons: ["w50"],
+              text: ".50 Inline Muzzleloading Pistol"
+            },
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Piebald Feral Goat in Bushrangers Run using a .50 Patched Round Ball.",
+            "Harvest a male Axis Deer scoring more than 150 in Bushrangers Run using a .45 Saboted Bullet.",
+            "Harvest a Red Kangaroo scoring more than 65 in Bushrangers Run using a .45 Copper Bullet."
+          ],
+        },
+        {
+          missionID: "wp9-4",
+          name: "Smoke Poles: Piccabeen Bay",
+          earnings: "2000",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a male Sambar Deer from more than 35m (Approx. 115 ft) in Piccabeen Bay using a .50 Conical Bullet or a .50 Lead Bullet.",
+            "Harvest a Banteng from more than 35m (Approx. 115 ft) in Piccabeen Bay using a .50 Conical Bullet or a .50 Lead Bullet.",
+            "Harvest a Grey Water Buffalo from more than 35m (Approx. 115 ft) in Piccabeen Bay using a .50 Conical Bullet or a .50 Lead Bullet.",
+            "Harvest a Rusa Deer from more than 35m (Approx. 115 ft) in Piccabeen Bay using any permitted Muzzleloader ammo."
+          ],
+        },
+        {
+          missionID: "wp9-5",
+          name: "Smoke Poles: Timbergold Trails",
+          earnings: "2250",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Rocky Mountain Elk with a shot to the heart using a .50 Patched Round Ball or a .50 Lead Bullet.",
+            "Harvest a Puma with a shot to the lungs using a .50 Patched Round Ball or a .45 Copper Bullet.",
+            "Harvest a charging Grizzly Bear using a .50 Conical Bullet or a .50 Patched Round Ball.",
+            "Harvest a male Bighorn Sheep scoring more than 150 without hitting the skull using a .45 Saboted Bullet or a .50 Patched Round Ball."
+          ],
+        },
+        {
+          missionID: "wp9-6",
+          name: "Smoke Poles: Whiterime Ridge",
+          earnings: "2500",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+             {
+              weapons: ["w52"],
+              text: "Compound Bow Parker Python"
+            },
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Dall Sheep with a single shot without hitting the liver in Whiterime Ridge using a .50 Patched Round Ball or a .45 Copper Bullet.",
+            "Harvest a charging Bison scoring more than 110 with a single shot in Whiterime Ridge using any Muzzleloader.",
+            "Harvest an unspooked female Polar Bear from under 35 m (approx. 115ft) with a single shot in Whiterime Ridge using a .50 Conical Bullet or a .50 Patched Round Ball.",
+            "Harvest an unspooked Sitka Deer with a single shot in Whiterime Ridge using a .45 Saboted Bullet or a .50 Patched Round Ball.",
+            "Harvest a Moose scoring more than 160 with a single shot to the heart and/or lungs from more than 40m (Approx. 164 ft), no scope, in Whiterime Ridge using a .50 Patched Round Ball or a .50 Lead Bullet."
+          ],
+        },
+      ],
+    },
+    {
+      id: "wp10",
+      name: "Tenpoint Missions",
+      displayName: "Tenpoint",
+      animalID: "wp10",
+      filterArray: ["f1", "r1", "r2", "r4", "r5", "r6", "r8", "r9", "r11"], // Reservati na kojim se nalazi
+      missionPackValue: "5.000gm$",
+      imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/a/a8/Tenpoint_logo.jpg",
+      bgURL: "https://static.wikia.nocookie.net/thehuntergame/images/a/a8/Tenpoint_logo.jpg",
+      missionsList: [
+        {
+          missionID: "wp10-1",
+          name: "Skittish Game",
+          earnings: "100",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false, // da li je zavrsena misija
+          passable: true,
+          require: [
+            {
+              weapons: ["w60"],
+              text: "Tenpoint Carbon Fusion Crossbow"
+            },
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Coyote on Whitehart Island using a Tenpoint Carbon Fusion Crossbow.",
+            "Harvest a Turkey on Whitehart Island using a Tenpoint Carbon Fusion Crossbow in the same hunt."
+          ],
+        },
+        {
+          missionID: "wp10-2",
+          name: "Keep Your Head Down",
+          earnings: "250",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+             {
+              weapons: ["w60"],
+              text: "Tenpoint Carbon Fusion Crossbow"
+            },
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Red Fox from under 20 meters (approx 66 ft.) using a Tenpoint Carbon Fusion Crossbow"
+          ],
+        },
+        {
+          missionID: "wp10-3",
+          name: "Keep Your Head Up",
+          earnings: "500",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+             {
+              weapons: ["w60"],
+              text: "Tenpoint Carbon Fusion Crossbow"
+            },
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Blacktail Deer from over 40 meters (approx 131 ft.) using a Tenpoint Carbon Fusion Crossbow"
+          ],
+        },
+        {
+          missionID: "wp10-4",
+          name: "The Importance Of Shot Placement",
+          earnings: "1250",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+             {
+              weapons: ["w60"],
+              text: "Tenpoint Carbon Fusion Crossbow"
+            },
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Mule Deer with a lung or heart shot using a Tenpoint Carbon Fusion Crossbow"
+          ],
+        },
+        {
+          missionID: "wp10-5",
+          name: "Pinhead",
+          earnings: "2900",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w60"],
+              text: "Tenpoint Carbon Fusion Crossbow"
+            },
+            {
+              weapons: ["s5"],
+              text: "3x Tenpoint Crossbow Scope"
+            },
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Roosevelt Elk using a scoped Tenpoint Carbon Fusion Crossbow.",
+            "Harvest a Moose using a scoped Tenpoint Carbon Fusion Crossbow in the same hunt."
+          ],
+        },
+      ],
+    },
+    {
+      id: "wp11",
+      name: "The Boone And Crockett Club Missions",
+      displayName: "The B&C Club",
+      animalID: "wp11",
+      filterArray: ["f1", "r1", "r2", "r3", "r4", "r6", "r7", "r10", "r11"], // Reservati na kojim se nalazi
+      missionPackValue: "10.000gm$",
+      imageURL: "https://i.postimg.cc/ZqHHdRjB/bic.png",
+      bgURL: "https://i.postimg.cc/ZqHHdRjB/bic.png",
+      missionsList: [
+        {
+          missionID: "wp11-1",
+          name: "The Knowledge To Hunt",
+          earnings: "100",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false, // da li je zavrsena misija
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Locate five set of tracks from one and the same Mule Deer during one hunt."
+          ],
+        },
+        {
+          missionID: "wp11-2",
+          name: "Learning To Listen",
+          earnings: "200",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Identify the call of a male Mule Deer.",
+            "Identify the call of a female Mule Deer."
+          ],
+        },
+        {
+          missionID: "wp11-3",
+          name: "Learn To Observe",
+          earnings: "300",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Spot 3 Mule Deers during the same hunt"
+          ],
+        },
+        {
+          missionID: "wp11-4",
+          name: "Fair Chase",
+          earnings: "400",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Mule Deer at a 100% Harvest Value"
+          ],
+        },
+        {
+          missionID: "wp11-5",
+          name: "Choosing The Right Equipment",
+          earnings: "600",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Moose at a 100% Harvest Value from a hunting tower using a scoped weapon",
+          ],
+        },
+        {
+          missionID: "wp11-6",
+          name: "Trophy Hunting",
+          earnings: "800",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w11"],
+              text: "6.5x55 Blaser R8 Bolt Action Rifle"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Whitetail with at least 10 typical points at a 100% Harvest Value using a 6.5x55 Blaser R8 Bolt Action Rifle.",
+            "Harvest another Whitetail with at least 10 typical points at a 100% Harvest Value using a 6.5x55 Blaser R8 Bolt Action Rifle."
+          ],
+        },
+        {
+          missionID: "wp11-7",
+          name: "Wild Life Conservation",
+          earnings: "1000",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              equipments: ["eq1"],
+              text: "Ground Blind"
+            },
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Blacktail with at least 8 typical points at a 100% Harvest Value from a Ground Blind."
+          ],
+        },
+        {
+          missionID: "wp11-8",
+          name: "Big Game Hunting",
+          earnings: "1200",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w16"],
+              text: "9.3x62 Anschütz 1780 D FL Bolt Action Rifle"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Brown Bear at a 100% Harvest Value using a 9.3x62 Anschütz 1780 D FL Bolt Action Rifle."
+          ],
+        },
+        {
+          missionID: "wp11-9",
+          name: "Saved From Extinction",
+          earnings: "1800",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w15"],
+              text: "8x57 IS Anschütz 1780 D FL Bolt Action Rifle"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Roosevelt Elk at 100% Harvest Value from at least 100 meters (approx. 328 ft.) using a 8x57 IS Anschütz 1780 D FL Bolt Action Rifle"
+          ],
+        },
+        {
+          missionID: "wp11-10",
+          name: "Big Head",
+          earnings: "3600",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Black Bear at 100% Harvest Value bringing in a total score of at least 19."
+          ],
+        },
+      ],
+    },
+    {
+      id: "wp12",
+      name: "Traditional Bow Missions",
+      displayName: "Traditional Bow",
+      animalID: "wp12",
+      filterArray: ["f1", "r1", "r2", "r3", "r4", "r5", "r6", "r7", "r8", "r9", "r10", "r12"], // Reservati na kojim se nalazi
+      missionPackValue: "10.000gm$",
+      imageURL: "https://i.postimg.cc/YScD3pmt/NRB5UbIw.jpg",
+      bgURL: "https://i.postimg.cc/YScD3pmt/NRB5UbIw.jpg",
+      missionsList: [
+        {
+          missionID: "wp12-1",
+          name: "Sustainability",
+          earnings: "100",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false, // da li je zavrsena misija
+          passable: true,
+          require: [
+            {
+              weapons: ["w57"],
+              text: "Longbow"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Cottontail Rabbit from a distance of at least 15 meters (approx. 49 ft) using a Longbow.",
+            "Harvest a European Rabbit from a distance of at least 15 meters (approx. 49 ft) using a Longbow.",
+            "Harvest a Snowshoe Hare from a distance of at least 15 meters (approx. 49 ft) using a Longbow."
+          ],
+        },
+        {
+          missionID: "wp12-2",
+          name: "Big Game",
+          earnings: "200",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w58"],
+              text: "Cable-backed Bow"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a bull Moose using the Cable-backed Bow."
+          ],
+        },
+        {
+          missionID: "wp12-3",
+          name: "Accuracy",
+          earnings: "300",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w57"],
+              text: "Longbow"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Roosevelt Elk bull with a heart shot using the Longbow. Other organs may be hit, but the heart must be the hit with the killing shot."
+          ],
+        },
+        {
+          missionID: "wp12-4",
+          name: "Pork Recipe",
+          earnings: "400",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w55", "w56"],
+              text: "Any Recurve Bow"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a male Feral Hog from under a distance of 28 meter (approx. 92 ft.) using any Recurve Bow",
+            "Harvest a female Feral Hog from under a distance of 28 meter (approx. 92 ft.) using any Recurve Bow in the same hunt."
+          ],
+        },
+        {
+          missionID: "wp12-5",
+          name: "Up Close and Personal",
+          earnings: "600",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w55", "w56", "w57", "w58"],
+              text: "Any Recurve Bow, a Longbow or Cable-backed Bow."
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Whitetail Deer buck with at least ten typical points from within 25 (approx. 82 ft.) meters using any Recurve Bow, a Longbow or Cable-backed Bow.",
+          ],
+        },
+        {
+          missionID: "wp12-6",
+          name: "Testing Your Stealth",
+          earnings: "800",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w55", "w56", "w57", "w58"],
+              text: "Any Recurve Bow, a Longbow or Cable-backed Bow."
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a male Black Bear from a maximum of 30 meters (approx. 98 ft.) using any traditional bow."
+          ],
+        },
+        {
+          missionID: "wp12-7",
+          name: "Go Paleolithic",
+          earnings: "1000",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w55", "w56"],
+              text: "Any Recurve Bow"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a male Wild Boar weighing more than 180kg (approx. 397lbs) using any Recurve Bow."
+          ],
+        },
+        {
+          missionID: "wp12-8",
+          name: "Getting Serious with Stealth",
+          earnings: "1200",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w55", "w56", "w57", "w58"],
+              text: "Any Recurve Bow, a Longbow or Cable-backed Bow."
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Red Fox using any traditional bow.",
+            "Harvest an Arctic Fox using any traditional bow.",
+            "Harvest a Coyote using any traditional bow."
+          ],
+        },
+        {
+          missionID: "wp12-9",
+          name: "Specific Accuracy",
+          earnings: "1800",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w55"],
+              text: "Heavy Recurve Bow"
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a Blacktail Deer buck scoring more than 135 using the Heavy Recurve Bow. Other organs may be hit, but the heart must be hit with the killing shot."
+          ],
+        },
+        {
+          missionID: "wp12-10",
+          name: "Going Uphill",
+          earnings: "3600",
+          singleplayer: false,
+          sameHunt: true,
+          selected: false,
+          passable: true,
+          require: [
+            {
+              weapons: ["w55", "w56", "w57", "w58"],
+              text: "Any Recurve Bow, a Longbow or Cable-backed Bow."
+            }
+          ],
+          hint: {
+            text: "",
+            imageURL: "",
+            link: ""
+          },
+          goals: [
+            "Harvest a male Alpine Ibex using any traditional bow."
           ],
         },
       ],

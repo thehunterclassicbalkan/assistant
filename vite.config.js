@@ -4,9 +4,11 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import vueDevTools from 'vite-plugin-vue-devtools'
 
+const baseUrl = process.env.NODE_ENV === 'production' ? '/assistant/' : '/'
+
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/assistant/',
+  base: baseUrl,
   plugins: [
     vue(),
     vueDevTools(),

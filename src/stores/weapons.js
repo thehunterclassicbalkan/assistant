@@ -47,6 +47,10 @@ export const useStoreWeapons = defineStore('weapons', () => {
       name: 'Crossbows',
       weapons: ['w59', 'w60', 'w61'], // 8
     },
+    t12: {
+      name: 'Sights',
+      weapons: ['s1', 's2', 's3', 's4', 's5'], // 2
+    },
   };
   const weapons = ref([
     {
@@ -877,7 +881,7 @@ export const useStoreWeapons = defineStore('weapons', () => {
     },
     {
       id: 'w60',
-      type: 't12',
+      type: 't11',
       name: 'Tenpoint Carbon Fusion Crossbow',
       imgUrl: 'https://static.thehunter.com/static/img/items/1024/crossbow_01.png',
       priceGM: 8500,
@@ -891,11 +895,81 @@ export const useStoreWeapons = defineStore('weapons', () => {
     },
     {
       id: 'w61',
-      type: 't12',
+      type: 't11',
       name: 'Crossbow Pistol',
       imgUrl: 'https://static.thehunter.com/static/img/items/1024/crossbow_pistol_01.png',
       priceGM: 8500,
       priceEM: 500,
+      ammunition: [],
+      animals: [],
+      missions: [],
+      scopes: [],
+      selected: false,
+      owned: false
+    },
+    {
+      id: 's1',
+      type: 't12',
+      name: 'Aimpoint Micro H-1',
+      imgUrl: 'https://static.thehunter.com/static/img/items/256/aimpoint_scope_01.png',
+      priceGM: 5950,
+      priceEM: 350,
+      ammunition: [],
+      animals: [],
+      missions: [],
+      scopes: [],
+      selected: false,
+      owned: false
+    },
+    {
+      id: 's2',
+      type: 't12',
+      name: 'Aimpoint H34L',
+      imgUrl: 'https://static.thehunter.com/static/img/items/256/aimpoint_scope_02.png',
+      priceGM: 5950,
+      priceEM: 350,
+      ammunition: [],
+      animals: [],
+      missions: [],
+      scopes: [],
+      selected: false,
+      owned: false
+    },
+    {
+      id: 's3',
+      type: 't12',
+      name: '2-6x32mm Slug Scope',
+      imgUrl: 'https://static.thehunter.com/static/img/items/256/scope_slug.png',
+      priceGM: 5950,
+      priceEM: 350,
+      ammunition: [],
+      animals: [],
+      missions: [],
+      scopes: [],
+      selected: false,
+      owned: false
+    },
+    {
+      id: 's4',
+      type: 't12',
+      name: '2x Red Dot Shotgun Scope',
+      imgUrl: 'https://static.thehunter.com/static/img/items/256/scope05.png',
+      priceGM: 5950,
+      priceEM: 350,
+      ammunition: [],
+      animals: [],
+      missions: [],
+      scopes: [],
+      selected: false,
+      owned: false
+    },
+    {
+      id: 's5',
+      type: 't12',
+      name: '3x Tenpoint Crossbow Scope',
+      imgUrl: 'https://static.thehunter.com/static/img/items/256/scope_crossbow_rangemaster.png',
+      priceGM: 4250,
+      priceEM: 250,
       ammunition: [],
       animals: [],
       missions: [],

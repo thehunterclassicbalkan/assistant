@@ -105,7 +105,11 @@ const filterArray = [
   {name: 'Piccabeen Bay', id: 'r12', icon: 'PB_icon'},
   {name: 'Weapons', id: 'f1', icon: 'weapons'},
 ];
-
+const iconUrl = (icon) => {
+  // NODE_ENV = 'production' na build-u
+  const base = import.meta.env.MODE === 'production' ? '/assistant/' : '/'
+  return `${base}images/reserves/${icon}.webp`
+}
 </script>
 <template>
   <!-- FILTER MENU -->
@@ -113,7 +117,7 @@ const filterArray = [
     <ul>
       <li v-for="(filter, index) in filterArray" :key="`filter-${filter.id}`" class="filter-item" :class="{ 'selected' :  filter.id == filterID}">
         <div @click="filterID = filter.id">
-          <img :src="`/images/reserves/${filter.icon}.webp`" />
+          <img :src="iconUrl(filter.icon)" :alt="filter.name" />
           <span>{{ filter.name }}</span>
         </div>
       </li>

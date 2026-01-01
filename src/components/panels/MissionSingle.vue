@@ -50,9 +50,11 @@ function emitSelectMission() {
             </ul>
             <hr class="head-divider" v-if="mission.require.length > 0"/>
             <h3 class="mission-titles" v-if="mission.require.length > 0">Requirements</h3>
-            <p v-for="(requirement, index) in mission.require" :key="`requirement-${index}`">
-              {{ requirement.text }}
-            </p>
+            <ul class="req-list">
+              <li v-for="(requirement, index) in mission.require" :key="`requirement-${index}`">
+                {{ requirement.text }}
+              </li>
+            </ul>
           </div>
           <!-- HINT -->
           <div class="right-layout">

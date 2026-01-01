@@ -35,8 +35,13 @@ const filterArray = [
   {name: 'Muzzleloaders', id: 't9', icon: 'muzzleloaders'},
   {name: 'Bows', id: 't10', icon: 'bow'},
   {name: 'Crossbows', id: 't11', icon: 'crossbow'},
-  {name: 'Event', id: 't11', icon: 'event'},
+  {name: 'Sights', id: 't11', icon: 'event'},
 ];
+const iconUrl = (icon) => {
+  // NODE_ENV = 'production' na build-u
+  const base = import.meta.env.MODE === 'production' ? '/assistant/' : '/'
+  return `${base}images/weapons-icons/${icon}.webp`
+}
 </script>
 
 <template>
@@ -44,7 +49,7 @@ const filterArray = [
     <ul>
       <li v-for="(filter, index) in filterArray" :key="`filter-${filter.id}`" class="filter-item">
         <div @click="scrollToSection(filter.id)">
-          <img :src="`/images/weapons-icons/${filter.icon}.webp`" />
+          <img :src="iconUrl(filter.icon)" :alt="filter.name" />
           <span>{{ filter.name }}</span>
         </div>
       </li>
