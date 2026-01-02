@@ -6561,7 +6561,7 @@ export const useStoreMissions = defineStore('missions', () => {
             }
           ],
           hint: {
-            text: "",
+            text: "Mission can also be finished with 6.5x55 Blaser",
             imageURL: "",
             link: ""
           },
