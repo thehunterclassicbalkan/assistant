@@ -638,16 +638,7 @@ export const useStoreMissions = defineStore('missions', () => {
           sameHunt: false,
           selected: false,
           passable: true,
-          require: [
-            {
-              weapons: ["w1", "w2"],
-              text: "Bilo 223 ili 270"
-            },
-            {
-              weapons: ["w51", "w52", "w53", "w54"],
-              text: "Bilo koji compund bow"
-            }
-          ],
+          require: [],
           hint: {
             text: "",
             imageURL: "",
@@ -4599,8 +4590,8 @@ export const useStoreMissions = defineStore('missions', () => {
             },
           ],
           hint: {
-            text: "The coyote must have spawned in this area. Shooting another coyote that you lured or chased there will not count.",
-            imageURL: "https://static.wikia.nocookie.net/thehuntergame/images/0/0b/Northernquarter.jpg",
+            text: "",
+            imageURL: "",
             link: ""
           },
           goals: [
@@ -15454,7 +15445,7 @@ export const useStoreMissions = defineStore('missions', () => {
             {
               weapons: ["w42"],
               text: ".357 Revolver"
-            },,
+            },
             {
               weapons: ["w43"],
               text: ".44 Revolver"
@@ -15466,7 +15457,7 @@ export const useStoreMissions = defineStore('missions', () => {
             {
               weapons: ["w18"],
               text: ".30-30 Lever Action Rifle"
-            },
+            }
           ],
           hint: {
             text: "",
@@ -15488,7 +15479,7 @@ export const useStoreMissions = defineStore('missions', () => {
             "Harvest another Roe Deer using 7mm Magnum ammunition in the same hunt.",
             "Harvest another Roe Deer using .30-30 ammunition in the same hunt."
           ],
-        },
+        }
       ],
     },
     {
