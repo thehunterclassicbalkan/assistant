@@ -530,14 +530,24 @@ export const useStoreMissions = defineStore('missions', () => {
           sameHunt: false,
           selected: false,
           passable: true,
-          require: [],
+          require: [
+            {
+              weapons: ["w7"],
+              text: ".243 Bolt Action Rifle or .270 Bolt Action Rifle"
+            },
+            {
+              weapons: ["w11", "w12"],
+              text: "6.5x55 Blaser R8 Bolt Action Rifle or 6.5x55 Bolt Action Rifle"
+            }
+          ],
           hint: {
             text: "",
             imageURL: "",
             link: ""
           },
           goals: [
-            "Harvest an Axis Deer with a single shot using any .270 or .243 rifle"
+            "Harvest an Axis Deer with a single shot using any .270 or .243 rifle",
+            "Harvest an Axis Deer with a single shot using any 6.5x55 rifle"
           ],
         },
         {
