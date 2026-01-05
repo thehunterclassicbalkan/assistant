@@ -5105,7 +5105,7 @@ export const useStoreMissions = defineStore('missions', () => {
     },
     {
       id: "m23",
-      name: "Mallard Duck Missions",
+      name: "Mallard Missions",
       displayName: "Mallard Duck",
       animalID: "an25",
       filterArray: ["r7"], // Reservati na kojim se nalazi
@@ -9345,7 +9345,7 @@ export const useStoreMissions = defineStore('missions', () => {
     },
     {
       id: "m42",
-      name: "The Ducks Missions",
+      name: "Duck Missions",
       displayName: "The Ducks",
       animalID: "an2",
       filterArray: ["r7"], // Reservati na kojim se nalazi
